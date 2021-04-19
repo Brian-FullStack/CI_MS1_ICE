@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #003049;
+    color: #eae2b7;
+}
+
+/**Navigation Bar and Logo**/
+nav{
+    height: 60px;
+    width: auto;
+    background-color: #003049;
+    align-items: center;
+}
+#logo{
+    font-size: 120%;
+    float: left;
+}
+
+#menu{
+    font-size: 110%;
+    text-transform: uppercase;
+    list-style-type: none;
+    float: right;
+    padding-right: 10px;
+}
+
+#menu li{
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #eae2b7;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+    color: #f77f00;
+}
+
+#logo, #menu{
+    line-height: 75px;
+    margin-top: auto;
+    color: #eae2b7;
+}
+
+.active{
+    text-decoration: underline;
+    color: #f77f00;
+}
+
+/**Hero Image**/
+#hero-image-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    object-fit: fill;
+    object-position:bottom;
+}
+
+/**Footer**/
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: #003049;
+}
+
+#contact-info div{
+    display: inline-block;
+    margin-left: 5px;
+    width: 33%;
+    height: 100%;
+    text-align: left;
+}
+
+#find-us{
+    float: left;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+#find-us h3{
+    font-size: 110%;
+}
+
+#opening-times ul{
+    float: center;
+    list-style-type: none;
+}
+
+#map{
+    float: right;
+}
+
+#social-links{
+    display: block;
+}
