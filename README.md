@@ -20,15 +20,20 @@ The people who will utilise this website are:
 -	Problem Solvers
 
 # User Stories
--	As and experienced climber I want to keep training and improving as a climber even during the winter months.
--	As someone who has no experience as a climber I want to find a place so that I can learn to climb safely and under the guidance of experienced climbers.
--	As parents with two children, we want to know if ICE has climbing walls suitable for children,
--	As a user, I want to know what are the opening times and how much it costs to climb as ICE.
+- As a user I want to easily find the information ths I'm looking for.
+- As a user I want to find out how much it costs to climb at this gym.
+- As a user I want to find out the opening times for this gym.
+- As a user I want to find out what facilities this gym has to offer.
+- As a user I want to be able to book a time slot.
+- As a user I want to find out the location of this gym.
+- As a regular user I want to find out about up comming events.
 
 #Site Owner Goals
--	As a site owner I want to have an appealing website which is easy to navigate.
--	As a site owner I want a website which gives guests a good idea of what to expect when they come to our climbing gym for the first time.
--	As a site owner I want users to have a place where they can find up to date information on Opening Times, Prices and Events
+- As a site owner I want a professional responsive website.
+- As a site owner I want to showcase the facilities at our climbing gym.
+- As a site owner I want to establish a first point of contact with customers.
+- As a stie owner I want to have a point of contact with guests.
+- As a site owner I want to promote up coming events and training courses at our climbing 
 
 
 
@@ -37,6 +42,32 @@ This section is also where you would share links to any wireframes, mockups, dia
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+### Common Features
+-
+-
+### Index - Home Page
+- Features a hero image which immedeatly sets the theme of the site.
+- Contains a brief introduction about ICE and what the facility has to offer.
+- Contains a call to action button which will navigate the user to the booking page.
+
+### First Time
+- Features relating images and text about first time climbers and what experiences they can expect.
+- Contains detailed information about what to expect from their first visit to the climbing gym.
+- Contains a small gallery of images.
+
+### Facilities
+- Features a carousel of different facilities.
+- Contains a list of the facilities and a brief explination of the different types of climbing offered.
+- Contains a chart explaining the colour courdinated grading system at the gym.
+
+### Booking
+- Contains information on the prices.
+- Features a form for users to book a time slot.
+- There is also a link to a waiver.
+
+### Events
+- Contains information on different up comming events.
+- Shows Type of event, Time of event and Information on the event.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
