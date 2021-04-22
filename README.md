@@ -84,6 +84,12 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
+-[HTML](https://html.com/html5/) is used for adding all the copy and images to each page as well as creating forms and lists.
+
+-[CSS](https://www.w3schools.com/Css/) is used throughout this project to style the overall website.
+
+-[Bootstrap](https://getbootstrap.com/) came in very usefull when making the site responsive across a range of devices.
+
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
@@ -92,6 +98,25 @@ In this section, you should mention all of the languages, frameworks, libraries,
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+### Testing User Stories
+| #### Feature | #### Action |#### Expected Result | #### Actual Result |
+|---------|--------|-----------------|---------------|
+| As a user I want to find out how much it costs to climb at the gym. | To achieve this the user navigates to the booking link in the navigation bar.| I expect that the user will find the information that they are looking for.| This worked as expected|
+|As a user I want to find out the opening times for this gym.| User needs to scroll down to the footer|When the user scrolls down to the footer they will find the Opening Times| Worked as expected|
+|As a user I want to find out what facilities this gym has to offer.|User will click on the Facilities link in the navigation bar| When user follows the Facilities link they will find information on all facilities avaliable at the gym| Worked as expected.|
+|As a user I want to be able to book a time slot.| User will click on the Booking link in the navigation bar.| When user follows the Booking link they will find a biiking form to fill out.|Worked as expected.|
+|As a user I want to find out the location of this gym.|User needs to scroll down to the footer|When user scrolls down to the footer they will find the address and a map of where the gym is located.| Worked as expected.|
+|As a regular user I want to find out about up comming events.|User will click on the Events link in the navigation bar| When user clicks on the Events likn they will find information on upcoming events|Worked as expected|
+
+### Testing Site Owner Goals
+| #### Feature | #### Action |#### Expected Result | #### Actual Result |
+|---------|--------|-----------------|---------------|
+|As a site owner I want a professional responsive website.||||
+|As a site owner I want to showcase the facilities at our climbing gym.|The use of images and detailed information showcases what the gym has to offer. |Both site owner and user will see high quality images of the gym on every page. | Worked as expected|
+|As a site owner I want to establish a first point of contact with customers.||||
+|As a stie owner I want to have a point of contact with guests.||||
+|As a site owner I want to promote up coming events and training courses at our climbing.|The events page of the site will have information about up coming events in the gym.|That there will be clear and detailed information on what up coming events will be held in the gym|Worked as expected.|
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
