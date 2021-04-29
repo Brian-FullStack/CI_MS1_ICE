@@ -44,7 +44,38 @@ body{
     color: #2EC4B6;
 }
 
-.dropdown-menu a:hover{
-    background-color:  #2EC4B6;
+/**Hero Image**/
+.hero-image{
+    height: 92vh;
+    background: url(/images/hero-belay-lady.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    z-index: -2;
+}
+
+/**Text Overlay**/
+.jumbotron{
+    margin-top: 10rem;
+    background-color: transparent;
+}
+
+
+.jumbotron-header{
     color: #FDFFFC;
 }
+
+.opaque-overlay{
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+}
+
