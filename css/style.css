@@ -1,4 +1,50 @@
+/**COLORS
+Dark- #011627
+White- #FDFFFC
+Teal- #2EC4B6
+Red- #E71D36
+Orange- #FF9F1C
+**/
+
 body{
-    color: red;
-    background-color: aquamarine;;
+  
+}
+
+/** Navbar**/
+.navbar{
+    background-color: #011627;
+    color: #FDFFFC;
+    
+}
+
+.navbar-nav a{
+    color: #FDFFFC;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar-nav a:hover{
+    color: #2EC4B6;
+}
+
+/**Buttons**/
+.btn-booking{
+    background-color: #2EC4B6;
+    color: #FDFFFC;
+    width: 160px;
+    justify-content: center;
+}
+
+.btn-booking:hover{
+    background-color: #FDFFFC;
+    color: #2EC4B6;
+}
+
+.dropdown-menu a{
+    color: #2EC4B6;
+}
+
+.dropdown-menu a:hover{
+    background-color:  #2EC4B6;
+    color: #FDFFFC;
 }
