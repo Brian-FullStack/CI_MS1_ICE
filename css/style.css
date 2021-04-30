@@ -44,6 +44,16 @@ body{
     color: #2EC4B6;
 }
 
+.btn--orange{
+    background-color: #FF9F1C;
+    color: #FDFFFC;
+}
+
+.btn--orange:hover{
+    background-color: #e7921a;
+    color: #FDFFFC;
+}
+
 /**Hero Image**/
 .hero-image{
     height: 92vh;
@@ -69,7 +79,7 @@ body{
     color: #FDFFFC;
 }
 
-.opaque-overlay{
+/**.opaque-overlay{
     background-color: rgba(0, 0, 0, .5);
     top: 0;
     left: 0;
@@ -77,5 +87,41 @@ body{
     height: 90%;
     width: 100%;
     z-index: -1;
+}**/
+
+/**Nav Cards**/
+
+.card{
+    height: 30rem;
+    width: 18rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    padding: 1rem;
 }
 
+.card img{
+    height: 16rem;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**About Us**/
+.container{
+    background: #E71D36;
+    margin-top: 30px;
+    padding-top: 30px;
+    height: 300px;
+}
+
+.about-body{
+    text-align: center;
+    color: #FDFFFC;
+}
+
+.about-body h2{
+    margin-top: 20px;
+    text-transform: uppercase;
+}
