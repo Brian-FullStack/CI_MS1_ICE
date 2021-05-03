@@ -7,7 +7,7 @@ Orange- #FF9F1C
 **/
 
 body{
-  
+  background-color: #f1f1f1;
 }
 
 /** Navbar**/
@@ -54,6 +54,11 @@ body{
     color: #FDFFFC;
 }
 
+.btn--blue{
+    background-color: #2EC4B6;
+    color: #FDFFFC;
+}
+
 /**Hero Image**/
 .hero-image{
     height: 92vh;
@@ -75,19 +80,18 @@ body{
 }
 
 
-.jumbotron-header{
+.callout{
     color: #FDFFFC;
 }
 
-/**.opaque-overlay{
-    background-color: rgba(0, 0, 0, .5);
+.opaque-overlay{
+    position: absolute;
     top: 0;
     left: 0;
-    position: absolute;
-    height: 90%;
+    height: 100%;
     width: 100%;
-    z-index: -1;
-}**/
+    background-color: rgba(0,0,0,0.3);
+}
 
 /**Nav Cards**/
 
@@ -109,11 +113,10 @@ body{
 
 
 /**About Us**/
-.container{
-    background: #E71D36;
+.about-container{
+    background:  #e7921a;
     margin-top: 30px;
     padding-top: 30px;
-    height: 300px;
 }
 
 .about-body{
@@ -124,4 +127,81 @@ body{
 .about-body h2{
     margin-top: 20px;
     text-transform: uppercase;
+}
+
+/**First Time Page**/
+.what-to-expect .container-fluid{
+    padding: 0;
+}
+
+.ft-container{
+    background-color: #e7921a;
+    height: 600px;
+    position: relative;
+    padding: 0;
+}
+
+.ft-image{
+    background: url(/images/first-time-bouldering-resize.jpg);
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    z-index: -2;
+}
+
+.ft-about{
+    color: #FDFFFC;
+    justify-content: right;
+}
+
+.ft-about h1{
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+}
+
+.ft-about p{
+    text-align: center;
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+
+/**What to expect**/
+
+.expect-container{
+    background-color: #e7921a;
+    color: #FDFFFC;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#expect-heading{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1.5rem;
+    
+}
+
+.list-heading{
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+
+.hr-long{
+    background-color: #011627;
+    height: 2px;
+    width: 30%;
+}
+
+.expect-li{
+    list-style: circle;
+    line-height: 2rem;
 }
