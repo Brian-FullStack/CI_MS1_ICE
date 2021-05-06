@@ -1,6 +1,17 @@
 READ ME FILE
 
 Tabel Of Contents
+-
+- [UX](#ux)
+- [User Stories](#UserStories)
+- [Features](#Features)
+- [Technologies Used](#TechnologiesUsed)
+- [Testing](#Testing)
+- [Deployment](#Deployment)
+- [Credits](#Credits)
+- [Media](#Media)
+- [Acknowledgements](#Acknowledgements)
+
 
 
 # Irish Climbing Experience (MS1)
@@ -19,7 +30,9 @@ The people who will utilise this website are:
 -	Physically active people.
 -	Problem Solvers
 
-# User Stories
+## User Stories
+_________________
+### Site User Goals
 - As a user I want to easily find the information ths I'm looking for.
 - As a user I want to find out how much it costs to climb at this gym.
 - As a user I want to find out the opening times for this gym.
@@ -40,13 +53,14 @@ The people who will utilise this website are:
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser
 ……………………………………………………………..       
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+___________________________
 ### Common Features
--
--
+- Each page shares the same Nav Bar for an intuitive experience.
+- Each page shares the same footer with contact details, opening hours and an embeded map.
+- I maintained a similer colour scheme and page layout throughout the site.
 ### Index - Home Page
 - Features a hero image which immedeatly sets the theme of the site.
+- Navigation Cards add a more visual aspect to navigating the site.
 - Contains a brief introduction about ICE and what the facility has to offer.
 - Contains a call to action button which will navigate the user to the booking page.
 
@@ -58,7 +72,6 @@ In this section, you should go over the different parts of your project, and des
 ### Facilities
 - Features a carousel of different facilities.
 - Contains a list of the facilities and a brief explination of the different types of climbing offered.
-- Contains a chart explaining the colour courdinated grading system at the gym.
 
 ### Booking
 - Contains information on the prices.
@@ -68,6 +81,7 @@ In this section, you should go over the different parts of your project, and des
 ### Events
 - Contains information on different up comming events.
 - Shows Type of event, Time of event and Information on the event.
+- I added a regester button to each event card which opens a modal form.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -78,7 +92,10 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- In the future I would like to implement a members Log In page for gym members.
+- I would like to add the colour coded grading chart used for specifing the route grade in the climbing gym.
+- I think this page would benifit from adding a place where people can leave reviews about the climbing gym.
+- I think adding a promotional video of the climbing gym would give users a great idea of what exactly this climbing gym is like.
 
 ## Technologies Used
 
@@ -88,7 +105,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 -[CSS](https://www.w3schools.com/Css/) is used throughout this project to style the overall website.
 
--[Bootstrap](https://getbootstrap.com/) came in very usefull when making the site responsive across a range of devices.
+-[Bootstrap](https://getbootstrap.com/) came in very usefull when making the site responsive across a range of devices as well as a source of information.
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
@@ -153,6 +170,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 - The photos used in this site were obtained from ...
+Photo by <a href="https://unsplash.com/@royaannmiller?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">roya ann miller</a> on <a href="https://unsplash.com/s/photos/climbing-gym?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 ### Acknowledgements
 
