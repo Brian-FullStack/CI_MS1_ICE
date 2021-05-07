@@ -59,6 +59,12 @@ body{
     color: #FDFFFC;
 }
 
+.btn--blue:hover{
+    background-color: #FDFFFC;
+    color: #2EC4B6;
+    border: 1px solid #2EC4B6;
+}
+
 /**Hero Image**/
 .hero-image{
     height: 92vh;
@@ -88,7 +94,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 92vh;
     width: 100%;
     background-color: rgba(0,0,0,0.3);
 }
@@ -130,9 +136,6 @@ body{
 }
 
 /**First Time Page**/
-.what-to-expect .container-fluid{
-    padding: 0;
-}
 
 .ft-container{
     background-color: #e7921a;
@@ -143,7 +146,7 @@ body{
 
 .ft-image{
     background: url(/images/first-time-bouldering-resize.jpg);
-    height: 700px;
+    height: 92vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -197,7 +200,7 @@ body{
 
 .hr-long{
     background-color: #011627;
-    height: 2px;
+    height: 1px;
     width: 30%;
 }
 
@@ -205,3 +208,112 @@ body{
     list-style: circle;
     line-height: 2rem;
 }
+
+/**Gallery**/
+
+/**Footer**/
+.footer-container{
+    background-color: #011627;
+    color: #FDFFFC;
+    margin-top: 1rem;
+    padding-top: 30px;
+}
+
+.footer-items{
+    align-items: top;
+}
+
+.social-links a{
+    padding-top: 2rem;
+    padding-right: 1rem;
+    font-size: 200%;
+    color: #2EC4B6;
+}
+
+/**Facilities**/
+
+.boulder-card{
+    margin-top: 2rem;
+    background-color: #FDFFFC;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 2rem;
+}
+
+.boulder-about{
+    justify-content: left;
+}
+
+.boulder-card img{
+    float: left;
+    height: 15rem;
+    width: 100%;
+}
+
+/**Events**/
+
+.event-header{
+    color: #FDFFFC;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.event-cards{
+    padding-top: 1.5rem;
+}
+
+.event-about{
+    display: grid;
+    justify-items: center;
+    margin-top: 6rem;
+    
+}
+
+.event-about h1{
+    color: #FDFFFC;
+    font-size: 3rem;
+}
+
+.event-about h3{
+    color: #FDFFFC;
+    font-size: 2rem;
+}
+
+.event-about p{
+    color: #FDFFFC;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.event-image{
+    background: url(/images/lead-lady-climber.jpg);
+    height: 92vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    justify-content: left;
+    display: flex;
+    z-index: -2;
+}
+
+.event-cards{
+    background-color: #e7921a;
+}
+
+
+/**Modal**/
+.modal-content{
+    display: grid;
+    justify-content: center;
+    text-align: right;
+}
+
+.modal-content h3{
+    text-align: center;
+    margin: 1rem;
+}
+
+
