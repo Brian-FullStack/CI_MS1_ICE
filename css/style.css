@@ -201,11 +201,11 @@ body{
 .hr-long{
     background-color: #011627;
     height: 1px;
-    width: 30%;
+    width: 60%;
 }
 
 .expect-li{
-    list-style: circle;
+    list-style: circle #2EC4B6;
     line-height: 2rem;
 }
 
@@ -231,6 +231,13 @@ body{
 }
 
 /**Facilities**/
+
+.facilities-section{
+    background-color: #e7921a;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
 
 .boulder-card{
     margin-top: 2rem;
@@ -260,6 +267,7 @@ body{
 }
 
 .event-cards{
+    margin-top: 1rem;
     padding-top: 1.5rem;
 }
 
@@ -316,4 +324,83 @@ body{
     margin: 1rem;
 }
 
+/**Booking Page**/
 
+/**Pricing**/
+.pricing-container{
+    background-color: #ff9f1c;
+    color: #FDFFFC;
+    width: 80%;
+    margin-top: 5rem;
+    border: 1 solid #FDFFFC;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.price-box{
+    background-color: #FDFFFC ;
+    color: #011627;
+    padding: 2rem;
+    margin: 1rem;
+    border: 1 solid #FDFFFC;
+    border-radius: 5px;
+}
+table{
+    display: grid;
+    justify-content: center;
+}
+
+.table-item{
+    text-align: justify;
+    margin-right: 1rem;
+}
+
+
+/**Booking Form**/
+
+.form-container{
+    width: 100%;
+    text-align: left;
+    background-color: #FDFFFC;
+    border: 1px solid #FDFFFC;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+.form-container h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.form-group{
+    text-align: center;
+}
+
+#member{
+    margin-right: 2rem;
+}
+
+.form-group input[type="text"]{
+    width: 40%;
+}
+
+.form-group input[type="email"]{
+    width: 40%;
+}
+
+
+.form-group textarea{
+    width: 40%;
+    height: 7rem;
+    margin: 0 auto;
+}
+
+.form-checkboxes{
+    text-align: center;
+}
+.checkbox{
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+}
