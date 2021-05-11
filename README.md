@@ -4,7 +4,16 @@ Tabel Of Contents
 -
 - [UX](#ux)
 - [User Stories](#UserStories)
+ - - [Site User Goals](#SiteUserGoals)
+- - [Site Owner Goals](#SiteOwnerGoals)
 - [Features](#Features)
+- - [Common Features](#Commoneatures)
+- - [Home Page](#Index-HomePage)
+- - [First Time](#FirstTime)
+- - [Facilities](#Facilities)
+- - [Events](#Events)
+- - [Booking](#Booking)
+- - [Features Left to Implement](#FeaturesLeftToImplememt)
 - [Technologies Used](#TechnologiesUsed)
 - [Testing](#Testing)
 - [Deployment](#Deployment)
@@ -117,7 +126,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 ### Testing User Stories
-| #### Feature | #### Action |#### Expected Result | #### Actual Result |
+| Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
 | As a user I want to find out how much it costs to climb at the gym. | To achieve this the user navigates to the booking link in the navigation bar.| I expect that the user will find the information that they are looking for.| This worked as expected|
 |As a user I want to find out the opening times for this gym.| User needs to scroll down to the footer|When the user scrolls down to the footer they will find the Opening Times| Worked as expected|
@@ -127,7 +136,7 @@ In this section, you need to convince the assessor that you have conducted enoug
 |As a regular user I want to find out about up comming events.|User will click on the Events link in the navigation bar| When user clicks on the Events likn they will find information on upcoming events|Worked as expected|
 
 ### Testing Site Owner Goals
-| #### Feature | #### Action |#### Expected Result | #### Actual Result |
+| Feature | Action | Expected Result | Actual Result |
 |---------|--------|-----------------|---------------|
 |As a site owner I want a professional responsive website.||||
 |As a site owner I want to showcase the facilities at our climbing gym.|The use of images and detailed information showcases what the gym has to offer. |Both site owner and user will see high quality images of the gym on every page. | Worked as expected|
@@ -169,10 +178,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
-Photo by <a href="https://unsplash.com/@royaannmiller?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">roya ann miller</a> on <a href="https://unsplash.com/s/photos/climbing-gym?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+- The photos used in this site were obtained from Unsplash.com  
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received great feedback from my mentor Mo throu
