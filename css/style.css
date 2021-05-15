@@ -261,6 +261,23 @@ li a .active{
     padding-bottom: 2rem;
 }
 
+.facilities-image{
+    background-image: url(/images/wooden-wall-with-holds.jpg);
+    height: 92vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    z-index: -2;
+}
+
+.facilities-about{
+    color: #FDFFFC;
+}
+
 .boulder-card{
     margin-top: 2rem;
     background-color: #FDFFFC;
