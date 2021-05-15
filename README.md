@@ -110,14 +110,13 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
--[HTML](https://html.com/html5/) is used for adding all the copy and images to each page as well as creating forms and lists.
+- [HTML](https://html.com/html5/) is used for adding all the copy and images to each page as well as creating forms and lists.
 
--[CSS](https://www.w3schools.com/Css/) is used throughout this project to style the overall website.
+- [CSS](https://www.w3schools.com/Css/) is used throughout this project to style the overall website.
 
--[Bootstrap](https://getbootstrap.com/) came in very usefull when making the site responsive across a range of devices as well as a source of information.
+- [Bootstrap](https://getbootstrap.com/) came in very usefull when making the site responsive across a range of devices as well as a source of information.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [Coolers](https://coolors.co/) is wehere I fould the colour pallet used throughtput this site.
 
 ## Validations
 
@@ -178,8 +177,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from Unsplash.com  
+- The photos used in this site were obtained from Unsplash.com. 
 
 ### Acknowledgements
-
-- I received great feedback from my mentor Mo throu
+- I gathered most of my inspiration ofr this project from my local climbing club, the experience of friends aswell as my own personal experience.
+- W3schools.com was a great resource for me during this project.
+- I would like to thanks to my mentor from whom I received great feedback throughout this project.
