@@ -47,83 +47,6 @@
                 </ul>
             </div>
         </nav>
-        <!--Booking Form Modal-->
-        <div class="modal" id="booking-modal" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Book Your Visit</h4>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row" id="book">
-                            <div class="col-12">
-                                <form class="booking-form-container ml-auto mr-auto" action="#" method="#">
-                                    <div class="form-group mr-auto ml-auto">
-                                        <div class="input-box">
-                                            <input type="text" placeholder="Full Name" required>
-                                        </div>
-                                        <div class="input-box">
-                                            <input type="email" placeholder="Email" required>
-                                        </div>
-
-                                        <div class="radio-btn">
-                                            <div class="member-type">
-                                                <label for="member">Member</label>
-                                                <input type="radio" name="customer-type" id="member" value="member"
-                                                    class="radio-btn">
-                                            </div>
-                                            <div class="member-type">
-                                                <label for="non-member">Non-Member</label>
-                                                <input type="radio" name="customer-type" id="non-member"
-                                                    value="non-member" class="radio-btn" required>
-                                            </div>
-                                        </div>
-
-                                        <h5 class="rental-title">Do you need Equipment Rental?</h5>
-
-                                        <div class="checkbox">
-                                            <div class="rental-required">
-                                                <label for="harness">Harness</label>
-                                                <input type="checkbox" name="rental" id="harness" class="checkbox">
-                                            </div>
-                                            <div class="rental-required">
-                                                <label for="shoes">Shoes</label>
-                                                <input type="checkbox" name="rental" id="shoes" class="checkbox">
-                                            </div>
-                                            <div class="rental-required">
-                                                <label for="chalk">Chalk</label>
-                                                <input type="checkbox" name="rental" id="chalk" class="checkbox">
-                                            </div>
-                                            <div class="rental-required">
-                                                <label for="belay">Belay Device</label>
-                                                <input type="checkbox" name="rental" id="belay" class="checkbox">
-                                            </div>
-                                            <div class="rental-required">
-                                                <label for="full-set">Full Set</label>
-                                                <input type="checkbox" name="rental" id="full-set" class="checkbox">
-                                            </div>
-                                        </div>
-
-
-                                        <div class="input-box" id="subject-line">
-                                            <input type="text" placeholder="Subject">
-                                        </div>
-
-                                        <div class="input-box">
-                                            <textarea type="text" placeholder="Message"></textarea>
-                                        </div>
-
-                                        <input type="submit" value="Confirm" class="btn btn--blue">
-                                        <input type="reset" value="Reset" class="btn btn--orange">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--/Booking Form Modal-->
     </header>
     <!--Hero Box-->
     <div class="hero-image">
@@ -275,6 +198,84 @@
         </div>
     </footer>
     <!--/Footer-->
+    
+    <!--Booking Form Modal-->
+    <div class="modal" id="booking-modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Book Your Visit</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row" id="book">
+                        <div class="col-12">
+                            <form class="booking-form-container ml-auto mr-auto" action="#" method="#">
+                                <div class="form-group mr-auto ml-auto">
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Full Name" required>
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="email" placeholder="Email" required>
+                                    </div>
+
+                                    <div class="radio-btn">
+                                        <div class="member-type">
+                                            <label for="member">Member</label>
+                                            <input type="radio" name="customer-type" id="member" value="member"
+                                                class="radio-btn">
+                                        </div>
+                                        <div class="member-type">
+                                            <label for="non-member">Non-Member</label>
+                                            <input type="radio" name="customer-type" id="non-member"
+                                                value="non-member" class="radio-btn" required>
+                                        </div>
+                                    </div>
+
+                                    <h5 class="rental-title">Do you need Equipment Rental?</h5>
+
+                                    <div class="checkbox">
+                                        <div class="rental-required">
+                                            <label for="harness">Harness</label>
+                                            <input type="checkbox" name="rental" id="harness" class="checkbox">
+                                        </div>
+                                        <div class="rental-required">
+                                            <label for="shoes">Shoes</label>
+                                            <input type="checkbox" name="rental" id="shoes" class="checkbox">
+                                        </div>
+                                        <div class="rental-required">
+                                            <label for="chalk">Chalk</label>
+                                            <input type="checkbox" name="rental" id="chalk" class="checkbox">
+                                        </div>
+                                        <div class="rental-required">
+                                            <label for="belay">Belay Device</label>
+                                            <input type="checkbox" name="rental" id="belay" class="checkbox">
+                                        </div>
+                                        <div class="rental-required">
+                                            <label for="full-set">Full Set</label>
+                                            <input type="checkbox" name="rental" id="full-set" class="checkbox">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="input-box" id="subject-line">
+                                        <input type="text" placeholder="Subject">
+                                    </div>
+
+                                    <div class="input-box">
+                                        <textarea type="text" placeholder="Message"></textarea>
+                                    </div>
+
+                                    <input type="submit" value="Confirm" class="btn btn--blue">
+                                    <input type="reset" value="Reset" class="btn btn--orange">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Booking Form Modal-->
 
     <!--Bootstrap JS CDN-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
