@@ -18,14 +18,21 @@ body{
     height: 12vh;
 }
 
+.navbar-nav{
+    margin-top: 1.5rem;
+}
+
 .navbar-nav a{
     color: #FDFFFC;
     text-decoration: none;
-    margin-top: 1rem;
 }
 
 .navbar-nav a:hover{
     color: #2EC4B6;
+}
+
+.btn-booking{
+    margin-bottom: 10px;
 }
 
 /**Buttons**/
