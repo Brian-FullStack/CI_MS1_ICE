@@ -110,8 +110,9 @@ body{
 }
 
 .btn--orange:hover{
-    background-color: #e7921a;
-    color: #FDFFFC;
+    background-color: #FDFFFC;
+    color: #FF9F1C;
+    border: 1px solid #FF9F1C;
 }
 
 .btn--blue{
