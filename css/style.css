@@ -18,13 +18,19 @@ body{
     height: 12vh;
 }
 
+.navbar-brand{
+    font-size: 2.5rem;
+}
+
 .navbar-nav{
     margin-top: 1.5rem;
 }
 
 .navbar-nav a{
+    font-size: 1.25rem;
     color: #FDFFFC;
     text-decoration: none;
+    text-align: center;
 }
 
 .navbar-nav a:hover{
