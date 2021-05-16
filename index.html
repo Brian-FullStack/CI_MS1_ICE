@@ -35,21 +35,93 @@
                     <li class="nav-item mr-5"><a href="first-time.html">First Time</a></li>
                     <li class="nav-item mr-5"><a href="facilities.html">Facilities</a></li>
                     <li class="nav-item mr-5"><a href="events.html">Events</a></li>
-                    <li class="nav-item mr-5"><a href="events.html">Contact</a></li>
+                    <li class="nav-item mr-5"><a href="booking.html">Contact</a></li>
 
                     <!--Booking Button-->
                     <li class="btn-group" aria-label="booking-dropdown">
-                        <button class=" btn btn-booking dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <button class=" btn btn-booking" data-toggle="modal" data-target="#booking-modal" aria-expanded="false">
                             Booking
                         </button>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-item"><a href="booking.html">Pricing</a></li>
-                            <li class="dropdown-item"><a href="booking.html">Booking</a></li>
-                        </ul>
                     </li>
                 </ul>
             </div>
         </nav>
+        <!--Booking Form Modal-->
+        <div class="modal" id="booking-modal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Book Your Visit</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" id="book">
+                        <div class="col-12">
+                            <form class="booking-form-container ml-auto mr-auto" action="#" method="#">
+                                <div class="form-group mr-auto ml-auto">
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Full Name" required>
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="email" placeholder="Email" required>
+                                    </div>
+            
+                                    <div class="radio-btn">
+                                        <div class="member-type">
+                                            <label for="member">Member</label>
+                                            <input type="radio" name="customer-type" id="member" value="member" class="radio-btn">
+                                        </div>
+                                        <div class="member-type">
+                                            <label for="non-member">Non-Member</label>
+                                            <input type="radio" name="customer-type" id="non-member" value="non-member"
+                                                class="radio-btn" required>
+                                        </div>
+                                    </div>
+            
+                                    <h5 class="booking-title">Do you need Equipment Rental?</h5>
+            
+                                    <div class="checkbox">
+                                        <div class="rental-required">
+                                            <label for="harness">Harness</label>
+                                            <input type="checkbox" name="rental" id="harness" class="checkbox">
+                                        </div>
+                                        <div class="rental-required">
+                                            <label for="shoes">Shoes</label>
+                                            <input type="checkbox" name="rental" id="shoes" class="checkbox">
+                                        </div>
+                                        <div class="rental-required">
+                                            <label for="chalk">Chalk</label>
+                                            <input type="checkbox" name="rental" id="chalk" class="checkbox">
+                                        </div>
+                                        <div class="rental-required">
+                                            <label for="belay">Belay Device</label>
+                                            <input type="checkbox" name="rental" id="belay" class="checkbox">
+                                        </div>
+                                        <div class="rental-required">
+                                            <label for="full-set">Full Set</label>
+                                            <input type="checkbox" name="rental" id="full-set" class="checkbox">
+                                        </div>
+                                    </div>
+            
+            
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Subject">
+                                    </div>
+            
+                                    <div class="input-box">
+                                        <textarea type="text" placeholder="Message"></textarea>
+                                    </div>
+            
+                                    <input type="submit" value="Confirm" class="btn btn--blue">
+                                </div>
+                            </form>
+                        </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        <!--/Booking Form Modal-->
     </header>
     <!--Hero Box-->
     <div class="hero-image">
@@ -173,7 +245,7 @@
     <footer>
         <div class="container-fluid footer-container">
             <div class="footer-items row">
-                <!--Find Us-->
+                <!--Social Links-->
                 <div class="col-12 col-md-6 col-lg-6">
                 <span class="social-links">
                     <a href="https://www.facebook.com/" aria-label="facebook"><i
@@ -184,6 +256,8 @@
                             class="fab fa-twitter-square"></i></a>
                     </span>
                 </div>
+                <!--/Social Links-->
+                <!--Find Us-->
                 <div class="col-12 col-md-6 col-lg-6">
                     <span id="find-us" class="ml-auto mr-auto">
                         <p>IRISH CLIMBING EXPERIENCE <br>
