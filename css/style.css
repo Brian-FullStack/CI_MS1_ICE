@@ -385,7 +385,7 @@ table{
 .boulder-card{
     margin-top: 2rem;
     background-color: #FDFFFC;
-    border: 1px solid black;
+    border: 1px solid #FDFFFC;
     border-radius: 3px;
     padding: 2rem;
 }
@@ -402,6 +402,9 @@ table{
 }
 
 /**Events**/
+.events-container{
+    padding: 0;
+}
 
 .event-header{
     color: #FDFFFC;
