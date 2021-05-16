@@ -471,7 +471,20 @@ table{
 }
 
 /**Booking Page**/
-/**Booking Form**/
+.contact-container{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.contact-header{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.contact-header h2{
+    text-align: center;
+}
 
 .registration{
     background: #e7921a;
