@@ -151,6 +151,25 @@ body{
     text-transform: uppercase;
 }
 
+/**Find Us**/
+.find-us-container{
+    margin: 2rem;
+}
+
+.find-us-title{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+#map{
+    margin-top: 1rem;
+    
+}
+
+#open-times{
+    text-align: center;
+}
+
 /**First Time Page**/
 
 .ft-container{
@@ -189,7 +208,6 @@ body{
     line-height: 2rem;
     font-size: 20px;
 }
-
 
 /**What to expect**/
 
@@ -240,17 +258,6 @@ body{
 }
 #find-us{
     text-align: center;
-}
-
-#open-times{
-    text-align: center;
-}
-
-#map{
-    margin-top: 1rem;
-    margin-left: 2rem;
-    border: 1px solid;
-    border-radius: 5px;;
 }
 
 .social-links a{
