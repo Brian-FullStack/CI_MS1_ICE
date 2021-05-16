@@ -15,20 +15,16 @@ body{
 .navbar{
     background-color: #011627;
     color: #FDFFFC;
-    
+    height: 12vh;
 }
 
 .navbar-nav a{
     color: #FDFFFC;
-    text-align: center;
     text-decoration: none;
+    margin-top: 1rem;
 }
 
 .navbar-nav a:hover{
-    color: #2EC4B6;
-}
-
-li a .active{
     color: #2EC4B6;
 }
 
