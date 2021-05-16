@@ -226,20 +226,16 @@ body{
     line-height: 2rem;
 }
 
-/**Gallery**/
-
 /**Footer**/
 .footer-container{
     background-color: #011627;
     color: #FDFFFC;
-    margin-top: 1rem;
-    padding-top: 30px;
+    
 }
 
 .footer-items{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 2rem;
     margin: 0;
 }
 #find-us{
@@ -252,6 +248,9 @@ body{
 
 #map{
     margin-top: 1rem;
+    margin-left: 2rem;
+    border: 1px solid;
+    border-radius: 5px;;
 }
 
 .social-links a{
