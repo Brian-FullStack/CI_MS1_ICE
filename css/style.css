@@ -361,6 +361,10 @@ table{
     padding-bottom: 2rem;
 }
 
+.facilities-container{
+    padding: 0;
+}
+
 .facilities-image{
     background-image: url(/images/wooden-wall-with-holds.jpg);
     height: 92vh;
