@@ -333,6 +333,7 @@ table{
     background-color: #011627;
     color: #FDFFFC;
     height: 15vh;
+    margin-top: 2rem;
 }
 
 .footer-items{
@@ -349,7 +350,11 @@ table{
     font-size: 3rem;
     color: #2EC4B6;
     margin-right: 2rem;
-    
+}
+
+.social-links a:hover{
+    color: #FDFFFC;
+    font-size: 3.25rem;
 }
 
 /**Facilities**/
