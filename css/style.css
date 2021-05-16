@@ -42,8 +42,49 @@ body{
     margin: 0 auto 0 auto;
 }
 
+.modal-body .form-group{
+    text-align: left;
+}
+
 .btn-booking{
     margin-bottom: 10px;
+}
+
+.booking-form-container{
+    background: #FDFFFC;
+    width: 90%;
+    margin-top: 1rem;
+    padding: 1rem  1.5rem 1rem 1.5rem;
+    border-radius: 5px;
+}
+
+.input-box input{
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.input-box textarea{
+    width: 80%;
+    min-height: 200px;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.rental-title{
+    margin-top: 2rem;
+}
+
+.member-type{
+    display: inline;
+    margin-right: 2rem;
+}
+.rental-required{
+    display: inline;
+    margin-right: 2rem;
+}
+
+#subject-line{
+    margin-top: 1rem;
 }
 
 /**Buttons**/
@@ -423,45 +464,6 @@ table{
 
 /**Booking Page**/
 /**Booking Form**/
-
-.booking-form-container{
-    background: #FDFFFC;
-    width: 90%;
-    margin-top: 1rem;
-    padding: 1rem  1.5rem 1rem 1.5rem;
-    border-radius: 5px;
-}
-
-.booking-title{
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.form-group{
-    display: grid;
-    justify-content: center;
-}
-
-.input-box input{
-    width: 80%;
-    margin-bottom: 1rem;
-}
-
-.input-box textarea{
-    width: 80%;
-    min-height: 200px;
-    margin-right: auto;
-    margin-bottom: 1rem;
-}
-
-.member-type{
-    display: inline;
-    margin-right: 2rem;
-}
-.rental-required{
-    display: inline;
-    margin-right: 1rem;
-}
 
 .registration{
     background: #e7921a;
