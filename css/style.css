@@ -162,13 +162,12 @@ body{
 }
 #map{
     margin-top: 1rem;
-    
 }
 
-#open-times{
-    text-align: center;
+.times{
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
-
 /**First Time Page**/
 
 .ft-container{
@@ -247,23 +246,24 @@ body{
 .footer-container{
     background-color: #011627;
     color: #FDFFFC;
-    
+    height: 15vh;
 }
 
 .footer-items{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin: 0;
 }
 #find-us{
-    text-align: center;
+    text-align: right;
 }
 
 .social-links a{
-    padding-top: 2rem;
-    padding-right: 1rem;
-    font-size: 200%;
+    font-size: 3rem;
     color: #2EC4B6;
+    margin-right: 2rem;
+    
 }
 
 /**Facilities**/
