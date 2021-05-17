@@ -35,7 +35,7 @@
                     <li class="nav-item mr-5"><a href="first-time.html">First Time</a></li>
                     <li class="nav-item mr-5"><a href="facilities.html">Facilities</a></li>
                     <li class="nav-item mr-5"><a href="events.html">Events</a></li>
-                    <li class="nav-item mr-5"><a href="booking.html">Contact</a></li>
+                    <li class="nav-item mr-5"><a href="contact.html">Contact</a></li>
 
                     <!--Booking Button-->
                     <li class="btn-group" aria-label="booking-dropdown">
@@ -131,41 +131,45 @@
     <!--/About Us-->
 
     <!--Find Us-->
-    <div class="container find-us-container">
+    <div class="find-us-container">
+    <section class="find-us">
         <div class="row">
-            <!--Google Map-->
-            <div class="col-12 col-md-3 col-lg-6 d-sm-block">
-                <span class="find-us-title">
-                    <h2>Come Find Us
-                        <i class="fa fa-map-pin"></i>
-                    </h2>
-                </span>
-                <div id="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9318.257274854712!2d-8.503024455814632!3d54.27628458294934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ee8289567faa3%3A0x3cd4534c16fe90a8!2sFinisklin%20Business%20Park%2C%20Sligo!5e0!3m2!1sen!2sie!4v1620054117440!5m2!1sen!2sie"
-                        width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-            <!--/Google Map-->
-            <!--Opening Times-->
-            <div class="col-12 col-md-6 col-lg-6 d-sm-block">
-                <span class="find-us-title" id="open-times">
-                    <h2>Opening Times
-                        <i class="fa fa-clock"></i>
-                    </h2>
-                </span>
-                <div class="times">
-                    <p>Weekdays: 9am - 6pm <br>
-                        Weekends: 8am - 10pm <br>
-                        Bank Holidays: Closed
-                    </p>
-                </div>
-            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+        <div class="fu-col">
+            <h2>Come Find Us
+                <i class="fa fa-map-pin"></i>
+            </h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9318.257274854712!2d-8.503024455814632!3d54.27628458294934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ee8289567faa3%3A0x3cd4534c16fe90a8!2sFinisklin%20Business%20Park%2C%20Sligo!5e0!3m2!1sen!2sie!4v1620054117440!5m2!1sen!2sie"
+                width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <!--Opening Times-->
     </div>
-    <!--/Find Us-->
 
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="fu-col">
+            <h2>Opening Times
+                <i class="fa fa-clock"></i>
+            </h2>
+            <p>Weekdays: 9am - 6pm <br>
+                Weekends: 8am - 10pm <br>
+                Bank Holidays: Closed
+            </p>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="fu-col">
+            <h2>Waiver Form</h2>
+            <p>Although we have a strong emphasis on safety at Irish Climbing Ecperience everyone must complete a
+                facility waiver form. This is to ensure that you are aware of the risks involved with climbing.
+                Click here 
+                <a href="https://s3.amazonaws.com/craft-prod-assets/documents/2018-Sample-Waiver-and-Release.pdf" target="_blank"><i class="fas fa-download"></i></a>
+            </p>
+        </div>
+    </div>
+    </div>
+    </section>
+    </div>
     <!--Footer-->
     <footer>
         <div class="container-fluid footer-container">
@@ -183,7 +187,7 @@
                 </div>
                 <!--/Social Links-->
                 <!--Address-->
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6 d-none">
                     <span id="find-us" class="ml-auto mr-auto">
                         <p>IRISH CLIMBING EXPERIENCE <br>
                             1234, Finisklin Park,<br>
@@ -226,8 +230,8 @@
                                         </div>
                                         <div class="member-type">
                                             <label for="non-member">Non-Member</label>
-                                            <input type="radio" name="customer-type" id="non-member"
-                                                value="non-member" class="radio-btn" required>
+                                            <input type="radio" name="customer-type" id="non-member" value="non-member"
+                                                class="radio-btn" required>
                                         </div>
                                     </div>
 

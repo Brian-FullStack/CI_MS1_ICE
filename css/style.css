@@ -201,20 +201,12 @@ body{
 
 /**Find Us**/
 .find-us-container{
-    margin: 2rem;
+    padding: 1rem;
+    width: 95%;
+    margin-left: 4rem;
+    padding-right: 3rem;
 }
 
-.find-us-title{
-    margin-top: 3rem;
-}
-#map{
-    margin-top: 1rem;
-}
-
-.times{
-    font-size: 1.25rem;
-    line-height: 2rem;
-}
 /**First Time Page**/
 
 .ft-container{
@@ -261,8 +253,7 @@ body{
 }
 /**Pricing**/
 .pricing-container{
-    background-color: #e7921a;
-    color: #FDFFFC;
+    color: #011627;
     margin-top: 2rem;
     border: 1 solid #FDFFFC;
     border-radius: 5px;
@@ -321,7 +312,12 @@ table{
     background-image: linear-gradient(to right, #e7921a,#011627, #e7921a);
     height: 1px;
     width: 60%;
+}
 
+#hr-long-price{
+    background-image: linear-gradient(to right, #fff,#011627, #fff);
+    height: 1px;
+    width: 60%;
 }
 
 .expect-li{
