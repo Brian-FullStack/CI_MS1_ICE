@@ -30,7 +30,7 @@
                 <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav text-center ml-auto mr-5">
+                <ul class="navbar-nav ml-auto mr-5">
                     <li class="nav-item mr-5"><a class="active" href="index.html">Home</a></li>
                     <li class="nav-item mr-5"><a href="first-time.html">First Time</a></li>
                     <li class="nav-item mr-5"><a href="facilities.html">Facilities</a></li>
@@ -38,8 +38,8 @@
                     <li class="nav-item mr-5"><a href="contact.html">Contact</a></li>
 
                     <!--Booking Button-->
-                    <li class="btn-group" aria-label="booking-dropdown">
-                        <button class=" btn btn-booking" data-toggle="modal" data-target="#booking-modal"
+                    <li class="btn-group d-none" aria-label="booking-dropdown">
+                        <button class="btn btn-booking" data-toggle="modal" data-target="#booking-modal"
                             aria-expanded="false">
                             Booking
                         </button>
@@ -172,32 +172,46 @@
     </div>
     <!--Footer-->
     <footer>
-        <div class="container-fluid footer-container">
-            <div class="footer-items row">
+        <div class="container-fluid">
+            <div class="row">
                 <!--Social Links-->
-                <div class="col-12 col-md-6 col-lg-6">
-                    <span class="social-links">
-                        <a href="https://www.facebook.com/" aria-label="facebook"><i
-                                class="fab fa-facebook-square"></i></a>
-                        <a href="https://www.instagram.com/" aria-label="instagram"><i
-                                class="fab fa-instagram-square"></i></a>
-                        <a href="https://twitter.com/?lang=en-ie" aria-label="twitter"><i
-                                class="fab fa-twitter-square"></i></a>
-                    </span>
+                <div class="col-sm-4">
+                    <h4>Address</h4>
+                    <p class="inline-block">IRISH CLIMBING EXPERIENCE <br>
+                        1234, Finisklin Park,<br>
+                        Sligo
+                        <br>
+                        (071) 4455667 <br>
+                    </p>
                 </div>
                 <!--/Social Links-->
                 <!--Address-->
-                <div class="col-12 col-md-6 col-lg-6 d-none">
-                    <span id="find-us" class="ml-auto mr-auto">
-                        <p>IRISH CLIMBING EXPERIENCE <br>
-                            1234, Finisklin Park,<br>
-                            Sligo
-                            <br>
-                            (071) 4455667 <br>
-                        </p>
-                    </span>
+                <div class="col-sm-4">
+                    <h4>Copyright <i class="far fa-copyright" aria-hidden="true"></i></h4>
+                    <p class="inline-block">This site is intended for educational purposes only</p>
                 </div>
                 <!--/Address-->
+                <!--Copyright-->
+                <div class="col-sm-4 inline-block">
+                    <h4>Social</h4>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank" aria-hidden="true"><i
+                            class="fab fa-facebook-square"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank" aria-hidden="true"><i
+                            class="fab fa-instagram-square"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://twitter.com/?lang=en-ie" target="_blank" aria-hidden="true"><i
+                            class="fab fa-twitter-square"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
