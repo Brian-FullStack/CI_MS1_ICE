@@ -206,11 +206,22 @@ body{
 }
 
 /**Find Us**/
-.find-us-container{
+.find-us-section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 1rem;
-    width: 95%;
-    margin-left: 4rem;
-    padding-right: 3rem;
+}
+
+.find-us-section h2{
+    margin-bottom: 1rem;
+}
+
+.fa-download{
+    color: #e7921a;
+}
+
+.fa-download:hover{
+    color: #2EC4B6;
 }
 
 /**First Time Page**/
@@ -355,6 +366,9 @@ footer{
     color: #FDFFFC;
 }
 
+#footer-items{
+    padding: 1rem;
+}
 /**Facilities**/
 
 .facilities-section{
