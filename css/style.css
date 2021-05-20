@@ -43,6 +43,10 @@ body{
     color: #2EC4B6;
 }
 
+.navbar.-collapse{
+    background-color: #011627;
+}
+
 /**Booking Modal**/
 .modal-title{
     margin: 0 auto 0 auto;
@@ -167,8 +171,16 @@ body{
     background-color: rgba(0,0,0,0.3);
 }
 
-/**Nav Cards**/
+/**Carousel**/
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
 
+
+/**Nav Cards**/
+/**
 .card{
     height: 30rem;
     width: 18rem;
@@ -184,7 +196,8 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
+**/
+/**Nav Cards**/
 
 /**About Us**/
 .about-container{
@@ -217,11 +230,11 @@ body{
 }
 
 .fa-download{
-    color: #e7921a;
+    color: #2ec4b6;
 }
 
 .fa-download:hover{
-    color: #2EC4B6;
+    font-size: 1.25rem;
 }
 
 /**First Time Page**/
