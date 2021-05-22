@@ -548,4 +548,8 @@ footer{
     .collapse .btn-booking{
         display: none;
     }
+
+    .hero-image{
+        display: center;
+    }
 }
