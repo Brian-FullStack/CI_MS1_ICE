@@ -1,21 +1,22 @@
 READ ME FILE
 
-https://brian-fullstack.github.io/CI_MS1_ICE/
+[View Live Site](https://brian-fullstack.github.io/CI_MS1_ICE/)
 
 Tabel Of Contents
 -
+
 - [UX](#ux)
 - [User Stories](#UserStories)
- - - [Site User Goals](#SiteUserGoals)
-- - [Site Owner Goals](#SiteOwnerGoals)
+    - [Site User Goals](#SiteUserGoals)
+    - [Site Owner Goals](#SiteOwnerGoals)
 - [Features](#Features)
-- - [Common Features](#Commoneatures)
-- - [Home Page](#Index-HomePage)
-- - [First Time](#FirstTime)
-- - [Facilities](#Facilities)
-- - [Events](#Events)
-- - [Booking](#Booking)
-- - [Features Left to Implement](#FeaturesLeftToImplememt)
+    - [Common Features](#Commoneatures)
+    - [Home Page](#Index-HomePage)
+    - [First Time](#FirstTime)
+    - [Facilities](#Facilities)
+    - [Events](#Events)
+    - [Booking](#Booking)
+    - [Features Left to Implement](#FeaturesLeftToImplememt)
 - [Technologies Used](#TechnologiesUsed)
 - [Testing](#Testing)
 - [Deployment](#Deployment)
@@ -44,20 +45,20 @@ The people who will utilise this website are:
 ## User Stories
 _________________
 ### Site User Goals
-- As a user I want to easily find the information ths I'm looking for.
-- As a user I want to find out how much it costs to climb at this gym.
-- As a user I want to find out the opening times for this gym.
-- As a user I want to find out what facilities this gym has to offer.
-- As a user I want to be able to book a time slot.
-- As a user I want to find out the location of this gym.
-- As a regular user I want to find out about up comming events.
+1. As a user I want to easily find the information ths I'm looking for.
+2. As a user I want to find out how much it costs to climb at this gym.
+3. As a user I want to find out the opening times for this gym.
+4. As a user I want to find out what facilities this gym has to offer.
+5. As a user I want to be able to book a time slot.
+6. As a user I want to find out the location of this gym.
+7. As a regular user I want to find out about up comming events.
 
 #Site Owner Goals
-- As a site owner I want a professional responsive website.
-- As a site owner I want to showcase the facilities at our climbing gym.
-- As a site owner I want to establish a first point of contact with customers.
-- As a stie owner I want to have a point of contact with guests.
-- As a site owner I want to promote up coming events and training courses at our climbing 
+1. As a site owner I want a professional responsive website.
+2. As a site owner I want to showcase the facilities at our climbing gym.
+3. As a site owner I want to establish a first point of contact with customers.
+4. As a stie owner I want to have a point of contact with guests.
+5. As a site owner I want to promote up coming events and training courses at our climbing 
 
 
 
@@ -69,11 +70,49 @@ ___________________________
 - Each page shares the same Nav Bar for an intuitive experience.
 - Each page shares the same footer with contact details, opening hours and an embeded map.
 - I maintained a similer colour scheme and page layout throughout the site.
-### Index - Home Page
-- Features a hero image which immedeatly sets the theme of the site.
-- Navigation Cards add a more visual aspect to navigating the site.
-- Contains a brief introduction about ICE and what the facility has to offer.
-- Contains a call to action button which will navigate the user to the booking page.
+## Feature 1 - Home Page
+The Home Page consists of four main sections.
+
+1. Hero Image and a call to action button.
+2. Carousel with images and links to other pages.
+3. About Us which gives a brief overview of what the company is aiming to achieve.
+4. Come Find Us aims to add relevent information about the gym.
+### Section 1 - Hero Image and Call To Action
+- I chose an image of a lady absailing because it is evokes the feeling people will have when they come to Irish Climbing Experience.
+
+- The general background colours in the image are similar to the colour scheme throughout the site. 
+
+- I used an opaque overlay to add contrast between the image the hero text.
+
+- The call to action button is important to this section as it invites the user to make a booking.
+
+![Hero Image and call to action](home-screen-hero.jpg)
+
+### Section 2 - Carousel
+
+- This was created using a Bootstrap 4 template. Origionally I had used bootstrap cards but realised that adding a carousel added more life to this static site.
+
+- The images and text are an indication of what the respective page is about when they follow the link.
+
+- I replaced the default carousel controls with font awsome icons which increased contrast with the image.
+
+### Section 3 - About Us
+
+- This section highlights what to company is about and trying to achieve. 
+
+- I used a contrasting background for this section to make it more eye catching.
+
+- All of the compy in this section as well as the copy throughout this site was wrote by myself.
+
+### Section 4 - Come Find Us
+
+- This section is designed to tell the user where the climbing gym is located and what times it is opened.
+
+- The map is embeded from Google maps.
+
+- I added the waiver form because I felt that the negitive space was unbalanced with the rest of the page.
+
+- I added a font awsome download which navigates to an example waiver form. I have given the icon the same color as all other buttons/links on the site to keep consistancy thoughout the page.
 
 ### First Time
 - Features relating images and text about first time climbers and what experiences they can expect.
