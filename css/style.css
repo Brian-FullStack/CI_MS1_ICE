@@ -5,6 +5,45 @@ Teal- #2EC4B6
 Red- #E71D36
 Orange- #FF9F1C
 **/
+/**Buttons**/
+.btn-booking{
+    background-color: #2EC4B6;
+    color: #FDFFFC;
+    width: 160px;
+    justify-content: center;
+}
+
+.btn-booking:hover{
+    background-color: #FDFFFC;
+    color: #2EC4B6;
+}
+
+.dropdown-menu a{
+    color: #2EC4B6;
+}
+
+.btn--orange{
+    background-color: #FF9F1C;
+    color: #FDFFFC;
+}
+
+.btn--orange:hover{
+    background-color: #FDFFFC;
+    color: #FF9F1C;
+    border: 1px solid #FF9F1C;
+}
+
+.btn--blue{
+    background-color: #2EC4B6;
+    color: #FDFFFC;
+    width: 160px;
+}
+
+.btn--blue:hover{
+    background-color: #FDFFFC;
+    color: #2EC4B6;
+    border: 1px solid #2EC4B6;
+}
 
 body{
   background-color: #f1f1f1;
@@ -97,46 +136,6 @@ body{
     margin-top: 1rem;
 }
 
-/**Buttons**/
-.btn-booking{
-    background-color: #2EC4B6;
-    color: #FDFFFC;
-    width: 160px;
-    justify-content: center;
-}
-
-.btn-booking:hover{
-    background-color: #FDFFFC;
-    color: #2EC4B6;
-}
-
-.dropdown-menu a{
-    color: #2EC4B6;
-}
-
-.btn--orange{
-    background-color: #FF9F1C;
-    color: #FDFFFC;
-}
-
-.btn--orange:hover{
-    background-color: #FDFFFC;
-    color: #FF9F1C;
-    border: 1px solid #FF9F1C;
-}
-
-.btn--blue{
-    background-color: #2EC4B6;
-    color: #FDFFFC;
-    width: 160px;
-}
-
-.btn--blue:hover{
-    background-color: #FDFFFC;
-    color: #2EC4B6;
-    border: 1px solid #2EC4B6;
-}
-
 /**Hero Image**/
 .hero-image{
     height: 92vh;
@@ -145,7 +144,6 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative top right;
     justify-content: center;
     display: flex;
     z-index: -2;
@@ -228,7 +226,6 @@ body{
 }
 
 /**First Time Page**/
-
 .ft-container{
     background-color: #e7921a;
     height: 600px;
@@ -275,7 +272,7 @@ body{
 .pricing-container{
     color: #011627;
     margin-top: 2rem;
-    border: 1 solid #FDFFFC;
+    border: 1px solid #FDFFFC;
     border-radius: 5px;
     text-align: center;
     padding: 2rem;
@@ -286,7 +283,7 @@ body{
     color: #011627;
     padding: 2rem;
     margin: 1rem;
-    border: 1 solid #FDFFFC;
+    border: 1px solid #FDFFFC;
     border-radius: 5px;
 }
 
@@ -308,7 +305,6 @@ table{
 }
 
 /**What to expect**/
-
 .expect-container{
     background-color: #e7921a;
     color: #FDFFFC;
@@ -373,11 +369,11 @@ footer{
 #footer-items{
     padding: 1rem;
 }
-/**Facilities**/
 
+/**Facilities**/
 .facilities-section{
     background-color: #e7921a;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
@@ -443,7 +439,6 @@ footer{
     display: grid;
     justify-items: center;
     margin-top: 6rem;
-    
 }
 
 .event-about h1{
@@ -477,9 +472,27 @@ footer{
 
 .event-cards{
     background-color: #e7921a;
+    margin-top: 2rem;
 }
 
-/**Modal**/
+.card{
+    height: 30rem;
+    width: 18rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    padding: 1rem;
+}
+
+.card img{
+    height: 16rem;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+/**Events**/
+
+/**Registration Modal**/
 .modal-content{
     display: grid;
     justify-content: center;
@@ -492,6 +505,7 @@ footer{
 }
 
 /**Booking Page**/
+/**Form**/
 .contact-container{
     margin-top: 7rem;
     margin-bottom: 2rem;
@@ -507,6 +521,7 @@ footer{
     text-align: center;
 }
 
+/**Registration**/
 .registration{
     background: #e7921a;
     color: #FDFFFC;
@@ -526,4 +541,11 @@ footer{
     color:#2EC4B6;
     font-size: 18px;
     padding-left: 5px;
+}
+
+/**Media Queries**/
+@media (max-width: 995px){
+    .collapse .btn-booking{
+        display: none;
+    }
 }
