@@ -54,7 +54,7 @@ _________________
 7. As a regular user I want to find out about up comming events.
 8. As a user I want to get an idea of what climbing at this gym will be like.
 
-#Site Owner Goals
+### Site Owner Goals
 1. As a site owner I want a professional responsive website.
 2. As a site owner I want to showcase the facilities at our climbing gym.
 3. As a site owner I want to establish a first point of contact with customers.
@@ -182,7 +182,7 @@ The Facilities Page has two sections:
 4. As a user I want to find out what facilities this gym has to offer.
 2. As a site owner I want to showcase the facilities at our climbing gym.
 
-### Feature 4 - Events Page
+## Feature 4 - Events Page
 The Events Page consists of three sections:
 
 1. Hero Image and Heading
@@ -213,12 +213,31 @@ The Events Page consists of three sections:
 7. As a regular user I want to find out about up comming events.
 5. As a site owner I want to promote up coming events and training courses at our climbing. 
 
+## Feature 5 - Contact Page
+The Contact Page consists of two sections:
 
-### Booking
-- Contains information on the prices.
-- Features a form for users to book a time slot.
-- There is also a link to a waiver.
+1. Contact Form section
+2. Registration and Waiver section
 
+### Section 1 - Contact Form
+- This section is used to let guests get in contact with the climbing gym.
+- I added a shadow to this section to make it stand out from the background.
+
+![Contact Us Form](docs/features/contact-us-form.jpg)
+
+### Section 2 - Registration and Waiver
+- This section is added for guests to be aware of any dangers that can be involved with climbing.
+- I added a contrasting background to seperate this section from the form section.
+- It includes a downloadable example waiver form which I obtained from amazonaws.com
+
+![Registration and Waiver box](docs/features/contact-us-registration.jpg)
+![Registration and Waiver box](docs/features/contact-us-waiver.jpg)
+
+### The user stories that this feature covers are:
+4. As a site owner I want to have a way for customers to contact us.
+8. As a user I want to get an idea of what climbing at this gym will be like.
+
+ 
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
