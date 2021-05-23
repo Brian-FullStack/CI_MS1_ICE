@@ -237,7 +237,18 @@ The Contact Page consists of two sections:
 4. As a site owner I want to have a way for customers to contact us.
 8. As a user I want to get an idea of what climbing at this gym will be like.
 
- 
+ ## Feature 6 - Booking Modal
+- The Booking Modal is created using Bootstrap 4 modal template.
+- This section is located on every page via the navbar.
+- I added custom HTML and CSS to the Bootstrap modal to style and layout the form.
+- The confirm button and rest button both use th colour scheme which is found thoughout the rest of the site.
+
+![Booking Modal](docs/features/booking-modal.jpg)
+
+### The user stories that this feature covers are:
+
+5. As a user I want to be able to book a slot.
+
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
