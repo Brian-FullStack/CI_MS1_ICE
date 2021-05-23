@@ -45,7 +45,7 @@ The people who will utilise this website are:
 ## User Stories
 _________________
 ### Site User Goals
-1. As a user I want to easily find the information ths I'm looking for.
+1. As a user I want to easily find the information that I'm looking for.
 2. As a user I want to find out how much it costs to climb at this gym.
 3. As a user I want to find out the opening times for this gym.
 4. As a user I want to find out what facilities this gym has to offer.
@@ -57,13 +57,13 @@ _________________
 1. As a site owner I want a professional responsive website.
 2. As a site owner I want to showcase the facilities at our climbing gym.
 3. As a site owner I want to establish a first point of contact with customers.
-4. As a stie owner I want to have a point of contact with guests.
-5. As a site owner I want to promote up coming events and training courses at our climbing 
+4. As a site owner I want to have a way for customers to contact us.
+5. As a site owner I want to promote up coming events and training courses at our climbing. 
 
 
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser
-……………………………………………………………..       
+……………………………………………………………       
 ## Features
 ___________________________
 ### Common Features
@@ -71,6 +71,7 @@ ___________________________
 - Each page shares the same footer with contact details, opening hours and an embeded map.
 - I maintained a similer colour scheme and page layout throughout the site.
 ## Feature 1 - Home Page
+_____
 The Home Page consists of four main sections.
 
 1. Hero Image and a call to action button.
@@ -96,6 +97,8 @@ The Home Page consists of four main sections.
 
 - I replaced the default carousel controls with font awsome icons which increased contrast with the image.
 
+![Carousel Section](docs/features/home-screen-carousel.jpg)
+
 ### Section 3 - About Us
 
 - This section highlights what to company is about and trying to achieve. 
@@ -103,6 +106,8 @@ The Home Page consists of four main sections.
 - I used a contrasting background for this section to make it more eye catching.
 
 - All of the compy in this section as well as the copy throughout this site was wrote by myself.
+
+![About Us Section](docs/features/home-screen-about.jpg)
 
 ### Section 4 - Come Find Us
 
@@ -114,11 +119,25 @@ The Home Page consists of four main sections.
 
 - I added a font awsome download which navigates to an example waiver form. I have given the icon the same color as all other buttons/links on the site to keep consistancy thoughout the page.
 
-### Feature 2 - First Time
-- Features relating images and text about first time climbers and what experiences they can expect.
-- Contains detailed information about what to expect from their first visit to the climbing gym.
-- Contains a small gallery of images.
+![Come Find Us Section](docs/features/home-screen-come-find-us.jpg)
 
+### The user stories that this feature covers are:
+1. As a user I want to easily find the information that I'm looking for.
+3. As a user I want to find out the opening times for this gym.
+6. As a user I want to find out the location of this gym.
+
+## Feature 2 - First Time
+_____
+The First Time page consists of three sections.
+
+1. Hero Image and About section.
+2. Price List section.
+3. What to Expect section.
+
+### Section 1 - Hero Image and About Us
+
+### Section 2 - Price List
+### Section 3 - What to Expect
 ### Facilities
 - Features a carousel of different facilities.
 - Contains a list of the facilities and a brief explination of the different types of climbing offered.
