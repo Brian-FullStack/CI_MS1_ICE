@@ -86,7 +86,7 @@ The Home Page consists of four main sections.
 
 - The call to action button is important to this section as it invites the user to make a booking.
 
-![Hero Image and call to action](home-screen-hero.jpg)
+![Hero Image and call to action](docs/features/home-screen-hero.jpg)
 
 ### Section 2 - Carousel
 
@@ -114,7 +114,7 @@ The Home Page consists of four main sections.
 
 - I added a font awsome download which navigates to an example waiver form. I have given the icon the same color as all other buttons/links on the site to keep consistancy thoughout the page.
 
-### First Time
+### Feature 2 - First Time
 - Features relating images and text about first time climbers and what experiences they can expect.
 - Contains detailed information about what to expect from their first visit to the climbing gym.
 - Contains a small gallery of images.
