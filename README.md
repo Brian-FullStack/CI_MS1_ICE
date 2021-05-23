@@ -49,9 +49,10 @@ _________________
 2. As a user I want to find out how much it costs to climb at this gym.
 3. As a user I want to find out the opening times for this gym.
 4. As a user I want to find out what facilities this gym has to offer.
-5. As a user I want to be able to book a time slot.
+5. As a user I want to be able to book a slot.
 6. As a user I want to find out the location of this gym.
 7. As a regular user I want to find out about up comming events.
+8. As a user I want to get an idea of what climbing at this gym will be like.
 
 #Site Owner Goals
 1. As a site owner I want a professional responsive website.
@@ -134,24 +135,60 @@ The First Time page consists of three sections.
 2. Price List section.
 3. What to Expect section.
 
-### Section 1 - Hero Image and About Us
+### Section 1 - Hero Image and Heading
+- I used the image for this section because it shows a stricking position of a climber.
+- The header text is used to make the first time user feel welcomed.
+- I reused the opaque overlay on this image to increase the contrast of the text with the image in the background.
+
+![First Time Page Hero Image](docs/features/first-time-hero.jpg)
 
 ### Section 2 - Price List
+- This section is build using Bootstrap 4 cards.
+- I the user gets a clear display of the prices of both members and non-members.
+- I used the bootstrap class "shadow" to make the three seperate cards stand out.
+
+![Price List Section](docs/features/first-time-price-list.jpg)
+
 ### Section 3 - What to Expect
-### Facilities
-- Features a carousel of different facilities.
-- Contains a list of the facilities and a brief explination of the different types of climbing offered.
+- I used this section to give a detailed overview of exactly what first time climbers can expect when they arrive.
+- I gave the background a contrasting colour to make it more eye catching.
+
+![What to Expect Section](docs/features/first-time-what-to-expect.jpg)
+
+### The user stories that this feature covers are:
+2. As a user I want to find out how much it costs to climb at this gym.
+8. As a user I want to get an idea of what climbing at this gym will be like.
+
+## Feature 3 - Facilities
+The Facilities Page has two sections:
+
+1. Hero Image and About
+2. Features List
+
+### Section 1 - Hero Image and Heading
+- This section gives users a brief overview of the size of the walls aswell as some of the facilities in the gym.
+![facilities section hero image](docs/features/facilities-hero.jpg)
+
+### Section 2 - Facilities List
+- This section goes into more detail about each facility and type of climbing offered at Irish Climbing Experience.
+- I created seperate boxes which hold an image of that particular activity and a more detailed discription of what is involved.
+- The copy in this section is adapted from climbinggeargeek.com.
+- This section has a contrasting background to make each box stand out. 
+
+![Facilities List Top](docs/features/facilities-list-1.jpg)
+![Facilities List Top](docs/features/facilities-list-2.jpg)
+
+### The user stories that this feature covers are:
+4. As a user I want to find out what facilities this gym has to offer.
+2. As a site owner I want to showcase the facilities at our climbing gym.
 
 ### Booking
 - Contains information on the prices.
 - Features a form for users to book a time slot.
 - There is also a link to a waiver.
 
-### Events
-- Contains information on different up comming events.
-- Shows Type of event, Time of event and Information on the event.
-- I added a regester button to each event card which opens a modal form.
- 
+### Feature 4 - Events Page
+
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
