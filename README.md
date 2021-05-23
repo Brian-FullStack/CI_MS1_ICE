@@ -182,12 +182,42 @@ The Facilities Page has two sections:
 4. As a user I want to find out what facilities this gym has to offer.
 2. As a site owner I want to showcase the facilities at our climbing gym.
 
+### Feature 4 - Events Page
+The Events Page consists of three sections:
+
+1. Hero Image and Heading
+2. Event Cards
+3. Registration Modal
+#### Section 1 - Hero Image and  Heading
+ - This section lets users know what positives can come from taking part in one of the events.
+ - It also lets users know that registration is required for taking part in events.
+
+ ![Event Hero Image](docs/features/events-hero.jpg)
+
+ #### Section 2 - Event Cards
+
+- This section was build using Bootstrap 4 cards.
+- This section gives users a place to find all the events and courses which are on in Irish Climbing Experience.
+- Each card has a registration button which prompts a modal to open up.
+
+![Event Cards](docs/features/events-cards-1.jpg)
+![Event Cards](docs/features/events-cards-2.jpg)
+
+ #### Section 3 - Registration Modal
+ - This section was built using a Bootstrap 4 template.
+ - This section gives users the option to register for an event.
+
+![Registration Modal](docs/features/events-modal.jpg)
+
+### The user stories that this feature covers are:
+7. As a regular user I want to find out about up comming events.
+5. As a site owner I want to promote up coming events and training courses at our climbing. 
+
+
 ### Booking
 - Contains information on the prices.
 - Features a form for users to book a time slot.
 - There is also a link to a waiver.
-
-### Feature 4 - Events Page
 
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
