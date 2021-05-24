@@ -65,12 +65,29 @@ _________________
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser
 ……………………………………………………………       
-## Features
-___________________________
-### Common Features
-- Each page shares the same Nav Bar for an intuitive experience.
-- Each page shares the same footer with contact details, opening hours and an embeded map.
-- I maintained a similer colour scheme and page layout throughout the site.
+# Features
+
+## Common Features
+There are two common features which appear on every page.
+1. Navigation Bar
+2. Footer
+
+## Navigation Bar
+- I desigined the navigation bar using Bootstrap 4 template. I felt that it was the best way to make navigating the site as intituive as possible.
+- The navigatin bar is responsive on small screens thanks to Bootstrap 4.
+
+![Navigation Bar](docs/features/Navigation-bar.jpg)
+
+## Footer
+- The footer is used to add extra information about Irish Climbing Experience such as: Address and links to social media.
+- In keeping with the rest of the site I choose to keep the social media icons the same colour as all other bittons in the site.
+
+![Footer](docs/features/footer.jpg)
+
+### The user stories that this feature covers are:
+1. As a user I want to easily find the information that I'm looking for.
+1. As a site owner I want a professional responsive website.
+
 ## Feature 1 - Home Page
 _____
 The Home Page consists of four main sections.
@@ -249,14 +266,6 @@ The Contact Page consists of two sections:
 
 5. As a user I want to be able to book a slot.
 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 - In the future I would like to implement a members Log In page for gym members.
 - I would like to add the colour coded grading chart used for specifing the route grade in the climbing gym.
@@ -300,12 +309,40 @@ In this section, you need to convince the assessor that you have conducted enoug
 ### Testing User Stories
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-| As a user I want to find out how much it costs to climb at the gym. | To achieve this the user navigates to the booking link in the navigation bar.| I expect that the user will find the information that they are looking for.| This worked as expected|
-|As a user I want to find out the opening times for this gym.| User needs to scroll down to the footer|When the user scrolls down to the footer they will find the Opening Times| Worked as expected|
+| As a user I want to find out how much it costs to climb at the gym. | To achieve this the user navigates to the First Time page in the navigation bar.| I expect that the user will find the information that they are looking for.| Worked as expected|
+
+![Price List Section](docs/features/first-time-price-list.jpg)
+
+| Feature | Action | Expected Result |  Actual Result |
+|---------|--------|-----------------|---------------|
+|As a user I want to find out the opening times for this gym.| User needs to scroll down to the Come Find Us section on the Home page |The user will find opening times for weekdays and weekends| Worked as expected|
+
+![Come Find Us Section](docs/features/home-screen-come-find-us.jpg)
+
+| Feature | Action | Expected Result |  Actual Result |
+|---------|--------|-----------------|---------------|
 |As a user I want to find out what facilities this gym has to offer.|User will click on the Facilities link in the navigation bar| When user follows the Facilities link they will find information on all facilities avaliable at the gym| Worked as expected.|
-|As a user I want to be able to book a time slot.| User will click on the Booking link in the navigation bar.| When user follows the Booking link they will find a biiking form to fill out.|Worked as expected.|
-|As a user I want to find out the location of this gym.|User needs to scroll down to the footer|When user scrolls down to the footer they will find the address and a map of where the gym is located.| Worked as expected.|
-|As a regular user I want to find out about up comming events.|User will click on the Events link in the navigation bar| When user clicks on the Events likn they will find information on upcoming events|Worked as expected|
+
+![Facilities List Top](docs/features/facilities-list-2.jpg)
+
+| Feature | Action | Expected Result |  Actual Result |
+|---------|--------|-----------------|---------------|
+|As a user I want to be able to book a climbing slot before I go to the gym.| User will click on the Booking link in the navigation bar.| When user clicks the booking button a model form will pop up for the user to book a visit.|Worked as expected.|
+
+![Booking Modal](docs/features/booking-modal.jpg)
+
+| Feature | Action | Expected Result |  Actual Result |
+|---------|--------|-----------------|---------------|
+|As a user I want to find out the location of this gym.|User needs to scroll down to the come find us section of the home page to find a map or to the footer of any page to find the address.|When user scrolls down to the come find us section or footer they will find the address and a map of where the gym is located.| Worked as expected.|
+
+![Come Find Us Section](docs/features/home-screen-come-find-us.jpg)
+![Footer](docs/features/footer.jpg)
+
+| Feature | Action | Expected Result |  Actual Result |
+|---------|--------|-----------------|---------------|
+|As a regular user I want to find out about up comming events.|User will click on the Events link in the navigation bar| When user clicks on the Events link they will find information on upcoming events|Worked as expected|
+
+![Event Cards](docs/features/events-cards-1.jpg)
 
 ### Testing Site Owner Goals
 | Feature | Action | Expected Result | Actual Result |
