@@ -263,18 +263,34 @@ In addition, you may also use this section to discuss plans for additional featu
 - I think this page would benifit from adding a place where people can leave reviews about the climbing gym.
 - I think adding a promotional video of the climbing gym would give users a great idea of what exactly this climbing gym is like.
 
-## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+## Languages, Frameworks and Technologies Used
+___
 
 - [HTML](https://html.com/html5/) is used for adding all the copy and images to each page as well as creating forms and lists.
 
 - [CSS](https://www.w3schools.com/Css/) is used throughout this project to style the overall website.
 
-- [Bootstrap](https://getbootstrap.com/) came in very usefull when making the site responsive across a range of devices as well as a source of information.
+___
 
-- [Coolers](https://coolors.co/) is wehere I fould the colour pallet used throughtput this site.
+- [Bootstrap 4](https://getbootstrap.com/) came in very usefull when making the site responsive across a range of devices as well as a source of information.
 
+- [Coolers](https://coolors.co/) is wehere I fould the colour pallet used throughtout this site.
+
+- [Font Awsome]() was used for adding Icons such as social icons, map pin, clock and download icon.
+
+- [Unsplash]()was where I got of the images on this site license free.
+
+- [GitHub]() is used as a remote repository for the projects source code.
+
+- [Git]() was used to commit and push the code to GitHub.
+
+- [Visual Studio Code]() is the IDE i used for writing the code for this project.
+
+- [Google Maps]() was used for embeding the map in the come find us section.
+
+- [Balsamiq]() was used for creating wireframes for all pages.
+
+- [Image Resizer](https://imageresizer.com/) is where I reduced the size of the images inorder to reduce the loadtime of each page.
 ## Validations
 
 ## Testing
@@ -318,12 +334,13 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+I deployed this website using GitHub pages. The process I used is as follows:
+1. I logged into my Github account and selected my MS1 project from my repositories.
+2. I clicked on 'Settings' in the repository.
+3. In the menu on the left i clicked on 'Pages'.
+4. I then clicked on 'Source'.
+5. I clicked on the dropdown menu that said 'None' and then selected 'Main'.
+6. After the page reloaded I clicked on the link to the deployed site.
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
