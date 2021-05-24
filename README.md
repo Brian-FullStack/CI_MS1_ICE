@@ -254,7 +254,7 @@ The Contact Page consists of two sections:
 4. As a site owner I want to have a way for customers to contact us.
 8. As a user I want to get an idea of what climbing at this gym will be like.
 
- ## Feature 6 - Booking Modal
+ ## Feature 6  - Booking Modal
 - The Booking Modal is created using Bootstrap 4 modal template.
 - This section is located on every page via the navbar.
 - I added custom HTML and CSS to the Bootstrap modal to style and layout the form.
@@ -302,54 +302,68 @@ ___
 - [Image Resizer](https://imageresizer.com/) is where I reduced the size of the images inorder to reduce the loadtime of each page.
 ## Validations
 
-## Testing
+# Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-### Testing User Stories
+## Testing User Stories
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-| As a user I want to find out how much it costs to climb at the gym. | To achieve this the user navigates to the First Time page in the navigation bar.| I expect that the user will find the information that they are looking for.| Worked as expected|
+|1.  As a user I want to find out how much it costs to climb at the gym. | To achieve this the user navigates to the First Time page in the navigation bar.| I expect that the user will find the information that they are looking for.| Worked as expected|
 
 ![Price List Section](docs/features/first-time-price-list.jpg)
 
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-|As a user I want to find out the opening times for this gym.| User needs to scroll down to the Come Find Us section on the Home page |The user will find opening times for weekdays and weekends| Worked as expected|
+|2. As a user I want to find out the opening times for this gym.| User needs to scroll down to the Come Find Us section on the Home page |The user will find opening times for weekdays and weekends| Worked as expected|
 
 ![Come Find Us Section](docs/features/home-screen-come-find-us.jpg)
 
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-|As a user I want to find out what facilities this gym has to offer.|User will click on the Facilities link in the navigation bar| When user follows the Facilities link they will find information on all facilities avaliable at the gym| Worked as expected.|
+|3. As a user I want to find out what facilities this gym has to offer.|User will click on the Facilities link in the navigation bar| When user follows the Facilities link they will find information on all facilities avaliable at the gym| Worked as expected.|
 
 ![Facilities List Top](docs/features/facilities-list-2.jpg)
 
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-|As a user I want to be able to book a climbing slot before I go to the gym.| User will click on the Booking link in the navigation bar.| When user clicks the booking button a model form will pop up for the user to book a visit.|Worked as expected.|
+|4. As a user I want to be able to book a climbing slot before I go to the gym.| User will click on the Booking link in the navigation bar.| When user clicks the booking button a model form will pop up for the user to book a visit.|Worked as expected.|
 
 ![Booking Modal](docs/features/booking-modal.jpg)
 
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-|As a user I want to find out the location of this gym.|User needs to scroll down to the come find us section of the home page to find a map or to the footer of any page to find the address.|When user scrolls down to the come find us section or footer they will find the address and a map of where the gym is located.| Worked as expected.|
+|5. As a user I want to find out the location of this gym.|User needs to scroll down to the come find us section of the home page to find a map or to the footer of any page to find the address.|When user scrolls down to the come find us section or footer they will find the address and a map of where the gym is located.| Worked as expected.|
 
 ![Come Find Us Section](docs/features/home-screen-come-find-us.jpg)
 ![Footer](docs/features/footer.jpg)
 
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-|As a regular user I want to find out about up comming events.|User will click on the Events link in the navigation bar| When user clicks on the Events link they will find information on upcoming events|Worked as expected|
+|6. As a regular user I want to find out about up comming events.|User will click on the Events link in the navigation bar| When user clicks on the Events link they will find information on upcoming events|Worked as expected|
 
 ![Event Cards](docs/features/events-cards-1.jpg)
+
+| Feature | Action | Expected Result |  Actual Result |
+|---------|--------|-----------------|---------------|
+|8. As a user I want to get an idea of what climbing at this gym will be like.|User gathers a feeling of the experience they will have by going through the site|As the user navigates through the site the abundance of images and discriptive language will discribe what its like to climb in the gym.|Worked as expected.|
+
 
 ### Testing Site Owner Goals
 | Feature | Action | Expected Result | Actual Result |
 |---------|--------|-----------------|---------------|
 |As a site owner I want a professional responsive website.||||
+
+| Feature | Action | Expected Result | Actual Result |
+|---------|--------|-----------------|---------------|
 |As a site owner I want to showcase the facilities at our climbing gym.|The use of images and detailed information showcases what the gym has to offer. |Both site owner and user will see high quality images of the gym on every page. | Worked as expected|
+
+| Feature | Action | Expected Result | Actual Result |
+|---------|--------|-----------------|---------------|
 |As a site owner I want to establish a first point of contact with customers.||||
+
+| Feature | Action | Expected Result | Actual Result |
+|---------|--------|-----------------|---------------|
 |As a stie owner I want to have a point of contact with guests.||||
 |As a site owner I want to promote up coming events and training courses at our climbing.|The events page of the site will have information about up coming events in the gym.|That there will be clear and detailed information on what up coming events will be held in the gym|Worked as expected.|
 
