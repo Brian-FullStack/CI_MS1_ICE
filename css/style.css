@@ -138,8 +138,9 @@ body{
 
 /**Hero Image**/
 .hero-image{
+    width: 100%;
     height: 92vh;
-    background: url(../images/hero-belay-lady.jpg);
+    background: url(../images/hero-belay-lady-2.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -154,7 +155,6 @@ body{
     margin-top: 10rem;
     background-color: transparent;
 }
-
 
 .callout{
     color: #FDFFFC;
