@@ -69,6 +69,8 @@ body{
 
 .navbar-nav{
     margin-top: 1.5rem;
+    background-color: #011627;
+    padding-right: 15rem;
 }
 
 .navbar-nav a{
@@ -541,12 +543,4 @@ footer{
     color:#2EC4B6;
     font-size: 18px;
     padding-left: 5px;
-}
-
-/**Media Queries**/
-@media (max-width: 992px){
-    .collapse .btn-booking{
-        display: none;
-    }
-
 }
