@@ -140,7 +140,7 @@ body{
 .hero-image{
     width: 100%;
     height: 92vh;
-    background: url(../images/hero-belay-lady-2.jpg);
+    background: url(../images/hero-belay-lady.jpeg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -238,7 +238,7 @@ body{
 }
 
 .ft-image{
-    background: url(../images/first-time-bouldering-resize.jpg);
+    background: url(../images/first-time-bouldering-resize.jpeg);
     height: 92vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -383,7 +383,7 @@ footer{
 }
 
 .facilities-image{
-    background-image: url(../images/wooden-wall-with-holds.jpg);
+    background-image: url(../images/wooden-wall-with-holds.jpeg);
     height: 92vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -458,7 +458,7 @@ footer{
 }
 
 .event-image{
-    background: url(../images/lead-lady-climber.jpg);
+    background: url(../images/lead-lady-climber.jpeg);
     height: 92vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
