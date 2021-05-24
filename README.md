@@ -276,19 +276,19 @@ ___
 
 - [Coolers](https://coolors.co/) is wehere I fould the colour pallet used throughtout this site.
 
-- [Font Awsome]() was used for adding Icons such as social icons, map pin, clock and download icon.
+- [Font Awsome](https://fontawesome.com/) was used for adding Icons such as social icons, map pin, clock and download icon.
 
-- [Unsplash]()was where I got of the images on this site license free.
+- [Unsplash](https://unsplash.com/) was where I got of the images on this site license free.
 
-- [GitHub]() is used as a remote repository for the projects source code.
+- [GitHub](https://github.com/) is used as a remote repository for the projects source code.
 
-- [Git]() was used to commit and push the code to GitHub.
+- [Git](https://git-scm.com/) was used to commit and push the code to GitHub.
 
-- [Visual Studio Code]() is the IDE i used for writing the code for this project.
+- [Visual Studio Code](https://visualstudio.microsoft.com/) is the IDE i used for writing the code for this project.
 
-- [Google Maps]() was used for embeding the map in the come find us section.
+- [Google Maps](https://www.google.ie/maps) was used for embeding the map in the come find us section.
 
-- [Balsamiq]() was used for creating wireframes for all pages.
+- [Balsamiq](https://balsamiq.com/) was used for creating wireframes for all pages.
 
 - [Image Resizer](https://imageresizer.com/) is where I reduced the size of the images inorder to reduce the loadtime of each page.
 ## Validations
