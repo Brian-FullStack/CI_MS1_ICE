@@ -19,6 +19,8 @@ Tabel Of Contents
     - [Features Left to Implement](#FeaturesLeftToImplememt)
 - [Technologies Used](#TechnologiesUsed)
 - [Testing](#Testing)
+    -[Testing User Stories](#TestingUserStories)
+    -[Lighthouse Testing](#LighthouseTesting)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
 - [Media](#Media)
