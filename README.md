@@ -1,14 +1,15 @@
 READ ME FILE
 
-[View Live Site](https://brian-fullstack.github.io/CI_MS1_ICE/)
+[View Deployed Site](https://brian-fullstack.github.io/CI_MS1_ICE/)
 
 Tabel Of Contents
 -
-
+- [Introduction](#IrishClimbingExperience)
 - [UX](#ux)
-- [User Stories](#UserStories)
+    - [User Stories](#UserStories)
     - [Site User Goals](#SiteUserGoals)
     - [Site Owner Goals](#SiteOwnerGoals)
+    - [Wireframes](#Wireframes)
 - [Features](#Features)
     - [Common Features](#Commoneatures)
     - [Home Page](#Index-HomePage)
@@ -19,8 +20,10 @@ Tabel Of Contents
     - [Features Left to Implement](#FeaturesLeftToImplememt)
 - [Technologies Used](#TechnologiesUsed)
 - [Testing](#Testing)
-    -[Testing User Stories](#TestingUserStories)
-    -[Lighthouse Testing](#LighthouseTesting)
+    - [Testing User Stories](#TestingUserStories)
+    - [HTML Validation](#HTMLValidation)
+    - [CSS Validation](#CSSValidation)
+    - [Lighthouse Testing](#LighthouseTesting)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
 - [Media](#Media)
@@ -28,7 +31,7 @@ Tabel Of Contents
 
 
 
-# Irish Climbing Experience (MS1)
+# Irish Climbing Experience
 The aim of this project is to create a responsive website for an indoor climbing gym Irish Climbing Experience (ICE). The idea for this website came from a conversation with some climbers who expressed frustration because they didn’t have any facility where they could train during the winter months.
 Irish Climbing Experience is designed to be the hub of climbing in the north west of Ireland. With the sport of climbing gaining in popularity and in 2021 being the first year for climbing to be included in the Olympic Games, ICE is set on inspiring climbers and to create a new generation of climbers in Ireland. 
 
@@ -67,6 +70,13 @@ _________________
 
 ## Wireframes
 ___
+Wireframes for each page can be found here:
+
+[Home Page](docs/wireframes/Home-Page-Wireframe.jpg),
+[First Time](docs/wireframes/First-Time-Wireframe.jpg),
+[Facilities](docs/wireframes/Facilities-Wireframe.jpg),
+[Events](docs/wireframes/Events-Wireframe.jpg),
+[Contact](docs/wireframes/Contact-Wireframe.jpg)
 
 
 # Features
@@ -354,7 +364,8 @@ ___
 |8. As a user I want to get an idea of what climbing at this gym will be like.|User gathers a feeling of the experience they will have by going through the site|As the user navigates through the site the abundance of images and discriptive language will discribe what its like to climb in the gym.|Worked as expected.|
 
 
-### Testing Site Owner Goals
+## Testing Site Owner Goals
+___
 | Feature | Action | Expected Result | Actual Result |
 |---------|--------|-----------------|---------------|
 |As a site owner I want a professional responsive website.||||
@@ -457,6 +468,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - The photos used in this site were obtained from Unsplash.com. 
 
+### Code
+
+-
 ### Acknowledgements
 - I gathered most of my inspiration ofr this project from my local climbing club, the experience of friends aswell as my own personal experience.
 
