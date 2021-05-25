@@ -367,7 +367,33 @@ In this section, you need to convince the assessor that you have conducted enoug
 |As a stie owner I want to have a point of contact with guests.||||
 |As a site owner I want to promote up coming events and training courses at our climbing.|The events page of the site will have information about up coming events in the gym.|That there will be clear and detailed information on what up coming events will be held in the gym|Worked as expected.|
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### HTML Validation
+I used [W3C Validator](https://validator.w3.org/) to validate HTML on each page.
+
+- First Time
+
+Initally I recieved 3 errors:
+1. Error 1: "Element "div" not allowed as child of element "ul" in this context."
+
+Fix: I fixed This error by changing the "btn-group" from a "div" to a "li".
+
+2. Error 2: "Bad value # for attribute method on element form."
+
+Fix: I simply fixed this error by removing the method in the form tag since it is not needed for this project.
+
+3. Error 3: "Attribute type not allowed on element textarea at this point."
+
+Fix: I fixed this error by removing "type="text" attribute from the textarea element.
+
+After I addressed these issues this page passed with 0 errors and 0 warnings.
+
+![First Time No Errors](docs/testing/first-time-no-errors.jpg)
+
+### CSS Validation
+I used [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate my CSS.
+
+My CSS came back with No Errors Found.
+![CSS No Errors](docs/testing/css-no-errors.jpg)
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
