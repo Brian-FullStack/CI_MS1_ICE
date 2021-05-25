@@ -38,12 +38,12 @@
                     <li class="nav-item mr-5"><a href="contact.html">Contact</a></li>  
 
                     <!--Booking Button-->
-                    <div class="btn-group">
+                    <li class="btn-group">
                         <button class=" btn btn-booking" data-toggle="modal" data-target="#booking-modal"
                             aria-expanded="false">
                             Booking
                         </button>
-                    </div>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -203,7 +203,7 @@
                 <div class="modal-body">
                     <div class="row" id="book">
                         <div class="col-12">
-                            <form class="booking-form-container ml-auto mr-auto" action="#" method="#">
+                            <form class="booking-form-container ml-auto mr-auto">
                                 <div class="form-group mr-auto ml-auto">
                                     <div class="input-box">
                                         <input type="text" placeholder="Full Name" required>
@@ -256,7 +256,7 @@
                                     </div>
 
                                     <div class="input-box">
-                                        <textarea type="text" placeholder="Message"></textarea>
+                                        <textarea placeholder="Message"></textarea>
                                     </div>
 
                                     <input type="submit" value="Confirm" class="btn btn--blue">
@@ -273,11 +273,11 @@
     
     <!--Sign Up Modal-->
     <!-- First modal dialog -->
-    <div class="modal fade" id="modal" aria-hidden="true" aria-labelledby="registration form" tabindex="-1">
+    <div class="modal fade" id="modal" aria-hidden="true" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <h3>Event Registration</h3>
-                <form action="#" method="#">
+                <form>
                     <label for="name">Name</label>
                     <input type="text" id="name" placeholder="Full Name" required>
 
