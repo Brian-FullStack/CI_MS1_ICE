@@ -32,9 +32,11 @@ Tabel Of Contents
 The aim of this project is to create a responsive website for an indoor climbing gym Irish Climbing Experience (ICE). The idea for this website came from a conversation with some climbers who expressed frustration because they didn’t have any facility where they could train during the winter months.
 Irish Climbing Experience is designed to be the hub of climbing in the north west of Ireland. With the sport of climbing gaining in popularity and in 2021 being the first year for climbing to be included in the Olympic Games, ICE is set on inspiring climbers and to create a new generation of climbers in Ireland. 
 
-## UX 
+# UX 
 Users of this website will need an easy to navigate site which guides them to the information they are looking. It should inform users of the facilities which ICE offers as well as information on prices, opening times and booking. This website satisfies these needs and more by having a navigation bar which informs the user what page they are currently on as well as linking to the other pages that they might be looking for. The use of images which relate to what the climbing gym looks like give the user an idea of the facilities, walls and some of the equipment that the will be using when they come to the gym.
-The people who will utilise this website are:
+
+## Site Demographic
+___
 -	Climbers live/travel to the north west of Ireland.
 -	Families
 -	Couples/Friends
@@ -63,10 +65,10 @@ _________________
 4. As a site owner I want to have a way for customers to contact us.
 5. As a site owner I want to promote up coming events and training courses at our climbing. 
 
+## Wireframes
+___
 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser
-……………………………………………………………       
 # Features
 
 ## Common Features
@@ -179,6 +181,7 @@ The First Time page consists of three sections.
 8. As a user I want to get an idea of what climbing at this gym will be like.
 
 ## Feature 3 - Facilities
+___
 The Facilities Page has two sections:
 
 1. Hero Image and About
@@ -202,6 +205,7 @@ The Facilities Page has two sections:
 2. As a site owner I want to showcase the facilities at our climbing gym.
 
 ## Feature 4 - Events Page
+___
 The Events Page consists of three sections:
 
 1. Hero Image and Heading
@@ -233,6 +237,7 @@ The Events Page consists of three sections:
 5. As a site owner I want to promote up coming events and training courses at our climbing. 
 
 ## Feature 5 - Contact Page
+___
 The Contact Page consists of two sections:
 
 1. Contact Form section
@@ -257,6 +262,7 @@ The Contact Page consists of two sections:
 8. As a user I want to get an idea of what climbing at this gym will be like.
 
  ## Feature 6  - Booking Modal
+ ___
 - The Booking Modal is created using Bootstrap 4 modal template.
 - This section is located on every page via the navbar.
 - I added custom HTML and CSS to the Bootstrap modal to style and layout the form.
@@ -274,8 +280,7 @@ The Contact Page consists of two sections:
 - I think this page would benifit from adding a place where people can leave reviews about the climbing gym.
 - I think adding a promotional video of the climbing gym would give users a great idea of what exactly this climbing gym is like.
 
-## Languages, Frameworks and Technologies Used
-___
+# Languages, Frameworks and Technologies Used
 
 - [HTML](https://html.com/html5/) is used for adding all the copy and images to each page as well as creating forms and lists.
 
@@ -302,13 +307,11 @@ ___
 - [Balsamiq](https://balsamiq.com/) was used for creating wireframes for all pages.
 
 - [Image Resizer](https://imageresizer.com/) is where I reduced the size of the images inorder to reduce the loadtime of each page.
-## Validations
 
 # Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
 ## Testing User Stories
+___
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
 |1.  As a user I want to find out how much it costs to climb at the gym. | To achieve this the user navigates to the First Time page in the navigation bar.| I expect that the user will find the information that they are looking for.| Worked as expected|
@@ -407,20 +410,7 @@ After I addressed these issues all pages passed with 0 errors and 0 warnings.
 
 - Facilities
 
-Initally I recieved 3 errors:
-1. Error 1: "Element "div" not allowed as child of element "ul" in this context."
 
-Fix: I fixed This error by changing the "btn-group" from a "div" to a "li".
-
-2. Error 2: "Bad value # for attribute method on element form."
-
-Fix: I simply fixed this error by removing the method in the form tag since it is not needed for this project.
-
-3. Error 3: "Attribute type not allowed on element textarea at this point."
-
-Fix: I fixed this error by removing "type="text" attribute from the textarea element.
-
-After I addressed these issues this page passed with 0 errors and 0 warnings.
 
 ![Facilities No Errors](docs/testing/facilities-no-error.jpg)
 
@@ -458,15 +448,16 @@ I deployed this website using GitHub pages. The process I used is as follows:
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
-## Credits
+# Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
+- The copy for this website was written by myself. 
 ### Media
+
 - The photos used in this site were obtained from Unsplash.com. 
 
 ### Acknowledgements
 - I gathered most of my inspiration ofr this project from my local climbing club, the experience of friends aswell as my own personal experience.
-- W3schools.com was a great resource for me during this project.
-- I would like to thanks to my mentor from whom I received great feedback throughout this project.
+
+- I would like to thanks to my mentor Mo from whom I received great feedback throughout this project.
