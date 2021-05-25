@@ -370,9 +370,42 @@ In this section, you need to convince the assessor that you have conducted enoug
 |As a site owner I want to promote up coming events and training courses at our climbing.|The events page of the site will have information about up coming events in the gym.|That there will be clear and detailed information on what up coming events will be held in the gym|Worked as expected.|
 
 ### HTML Validation
+___
 I used [W3C Validator](https://validator.w3.org/) to validate HTML on each page.
 
+
+Initally I recieved 3 errors:
+1. Error 1: "Element "div" not allowed as child of element "ul" in this context."
+
+Fix: I fixed This error by changing the "btn-group" from a "div" to a "li".
+
+2. Error 2: "Bad value # for attribute method on element form."
+
+Fix: I simply fixed this error by removing the method in the form tag since it is not needed for this project.
+
+3. Error 3: "Attribute type not allowed on element textarea at this point."
+
+Fix: I fixed this error by removing "type="text" attribute from the textarea element.
+
+After I addressed these issues all pages passed with 0 errors and 0 warnings.
+
+- Home
+
+![Home No Errors](docs/testing/home-no-error.jpg)
+
 - First Time
+
+![First Time No Errors](docs/testing/first-time-no-errors.jpg)
+
+- Facilities
+
+![Facilities No Errors](docs/testing/facilities-no-error.jpg)
+
+- Contact
+
+![contact No Errors](docs/testing/contact-no-error.jpg)
+
+- Facilities
 
 Initally I recieved 3 errors:
 1. Error 1: "Element "div" not allowed as child of element "ul" in this context."
@@ -389,9 +422,10 @@ Fix: I fixed this error by removing "type="text" attribute from the textarea ele
 
 After I addressed these issues this page passed with 0 errors and 0 warnings.
 
-![First Time No Errors](docs/testing/first-time-no-errors.jpg)
+![Facilities No Errors](docs/testing/facilities-no-error.jpg)
 
 ### CSS Validation
+___
 I used [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate my CSS.
 
 My CSS came back with No Errors Found.
