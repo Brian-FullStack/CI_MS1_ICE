@@ -69,8 +69,6 @@ body{
 
 .navbar-nav{
     margin-top: 1.5rem;
-    background-color: #011627;
-    padding-right: 15rem;
 }
 
 .navbar-nav a{
@@ -81,6 +79,10 @@ body{
 }
 
 .navbar-nav a:hover{
+    color: #2EC4B6;
+}
+
+li a .active{
     color: #2EC4B6;
 }
 
@@ -419,6 +421,8 @@ footer{
     height: 15rem;
     width: 100%;
     margin-bottom: 1rem;
+    object-fit: cover;
+    object-position: center;
 }
 
 /**Events**/
@@ -476,6 +480,8 @@ footer{
 .event-cards{
     background-color: #e7921a;
     margin-top: 2rem;
+/**Fixed Horizontal Scroll**/    
+    overflow-x: hidden;
 }
 
 .card{
@@ -550,4 +556,14 @@ footer{
     .btn-group-home{
         display: none !important;
     }
+
+    .navbar-collapse{
+        background-color: #011627;
+        overflow-x: auto;
+    }
+
+    button.btn.btn-booking{
+        flex: none;
+    }
+
 }
