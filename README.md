@@ -1,5 +1,7 @@
 READ ME FILE
 
+![Device Responsiveness](docs/features/responsive-devices.jpg)
+
 [View Deployed Site](https://brian-fullstack.github.io/CI_MS1_ICE/)
 
 Tabel Of Contents
