@@ -444,7 +444,19 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Lighthouse Testing
+
+![Lighthouse Score](docs/testing/lighthouse-score.jpg)
+
+### Responsiveness
+Throughout this project I used Google Chrome Dev Tools to see how responsive the site was as I built it.
+Once I deployed the project I used all devices available to me to see how the site worked on each one.
+The devices included:
+- Lenovo Ideapad C340
+- Huawei P30 Pro
+- iPad
+- iPhone 8+
+
 
 ### Bugs in Development
 Bug - On all pages I had a horizontal scroll bar.
