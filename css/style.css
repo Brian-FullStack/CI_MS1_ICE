@@ -82,7 +82,7 @@ body{
     color: #2EC4B6;
 }
 
-.navbar.-collapse{
+.navbar-collapse{
     background-color: #011627;
 }
 
@@ -449,7 +449,7 @@ footer{
     font-size: 3rem;
 }
 
-.event-about h3{
+.event-about h2{
     color: #FDFFFC;
     font-size: 2rem;
 }
