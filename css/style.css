@@ -82,10 +82,6 @@ body{
     color: #2EC4B6;
 }
 
-li a .active{
-    color: #2EC4B6;
-}
-
 .navbar.-collapse{
     background-color: #011627;
 }
