@@ -6,24 +6,26 @@ Tabel Of Contents
 -
 - [Introduction](#IrishClimbingExperience)
 - [UX](#ux)
-    - [User Stories](#UserStories)
-    - [Site User Goals](#SiteUserGoals)
-    - [Site Owner Goals](#SiteOwnerGoals)
+    - [User Stories](#User-Stories)
+    - [Site User Goals](#Site-User-Goals)
+    - [Site Owner Goals](#Site-Owner-Goals)
     - [Wireframes](#Wireframes)
 - [Features](#Features)
-    - [Common Features](#Commoneatures)
-    - [Home Page](#Index-HomePage)
-    - [First Time](#FirstTime)
-    - [Facilities](#Facilities)
-    - [Events](#Events)
-    - [Booking](#Booking)
-    - [Features Left to Implement](#FeaturesLeftToImplememt)
-- [Technologies Used](#TechnologiesUsed)
+    - [Common Features](#Common-Features)
+    - [Home Page](#Feature-1---Home-Page)
+    - [First Time](#Feature-2---First-Time)
+    - [Facilities](#Feature-3---Facilities)
+    - [Events](#Feature-4---Events)
+    - [Contact](#Feature-5---Contact-page)
+    - [Booking Modal](#Feature-6---Booking-Modal)
+    - [Features Left to Implement](#Features-Left-To-Implememt)
+- [Technologies Used](#Languages,-Frameworks-and-Technologies-Used)
 - [Testing](#Testing)
-    - [Testing User Stories](#TestingUserStories)
-    - [HTML Validation](#HTMLValidation)
-    - [CSS Validation](#CSSValidation)
-    - [Lighthouse Testing](#LighthouseTesting)
+    - [Testing User Stories](#Testing-User-Stories)
+    - [HTML Validation](#HTML-Validation)
+    - [CSS Validation](#CSS-Validation)
+    - [Lighthouse Testing](#Lighthouse-Testing)
+    - [Bugs in Development](#Bugs-in-Development)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
 - [Media](#Media)
@@ -441,6 +443,28 @@ For any scenarios that have not been automated, test the user stories manually a
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+### Bugs in Development
+Bug - On all pages I had a horizontal scroll bar.
+Fix - To fix this I referenced Stack Overflow where I learned to add "overflow: hidden;" to the "body" in CSS.
+
+Bug - When viewed on a tablet the Come Find Us section wasnt responsive.
+Fix - To solve this issue I referenced Code Institute lesson on creating the footer in the Resume project. I was reminded to add "class-"col-12 col-md-6 col-lg-4"" to all three divs. This pushed the waiver down to a new line and put the other two divs in two col-6 on the same line.
+
+Bug- On the Facilities pageI had trouble with two images streching on large screen sizes.
+Fix - I referenced Stack Overflow and learned about "Object-fit: cover;" This has helped the image from streching too much.
+
+Bug - Dropdown navigation menu was too hard to read on small screen sizes due to a transparent background.
+Fix - To solve this problem I added a media qurey for a dark background on .navbar-collapse.
+
+Bug - I felt that there was too many Booking buttons in the home page. When the navigation menu dropped down I felt that the buttons were too close.
+Fix - I added a media query so that the Booking button in the navbar on only the Home Page would be removed. 
+
+Bug - The Booking modal on mobiles had no way of being dismissed unless it was filled out and confirmed.
+Fix - To fox this I changed the Reset Button to a Close Button so users could escape from the booking modal if they didnt want to fill out the form.
+
+Bug - The white text on the Hero image was a little difficult to read on certain pages. 
+Fix - I fixed this by adding an opaque overlay on top of each image. This increased contrast and made the text easier to read.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
