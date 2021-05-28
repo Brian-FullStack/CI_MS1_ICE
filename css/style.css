@@ -258,14 +258,13 @@ body{
     justify-content: right;
 }
 
-.ft-about h2{
-    font-size: 20px;
-    text-align: center;
+.ft-about h1{
+    text-align: left;
     margin-bottom: 1.5rem;
 }
 
 .ft-about p{
-    text-align: center;
+    text-align: left;
     line-height: 2rem;
     font-size: 20px;
 }
