@@ -61,10 +61,12 @@ body{
     background-color: #011627;
     color: #FDFFFC;
     height: 12vh;
+    padding: 0;
 }
 
 .navbar-brand{
-    font-size: 20px;
+    font-size: 30px;
+    margin-left: 1rem;
 }
 
 .navbar-nav{
@@ -82,9 +84,14 @@ body{
     color: #2EC4B6;
 }
 
+.navbar-toggler{
+    margin-right: 1rem;
+}
+
 .navbar-collapse{
     background-color: #011627;
 }
+
 
 /**Booking Modal**/
 .modal-title{
@@ -552,9 +559,12 @@ footer{
         display: none !important;
     }
 
-    .navbar-collapse{
-        background-color: #011627;
-        overflow-x: auto;
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    .navbar-nav li{
+        margin-left: 1rem;
     }
 
     button.btn.btn-booking{
