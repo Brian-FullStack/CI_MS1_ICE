@@ -275,13 +275,12 @@
     </div>
     <!--/Booking Form Modal-->
 
-    <!--Sign Up Modal-->
-    <!-- First modal dialog -->
+    <!-- Event Registration was taken from Bootstrap documents. -->
     <div class="modal fade" id="modal" aria-hidden="true" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <h3>Event Registration</h3>
-                <form>
+                <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
                     <label for="name">Name</label>
                     <input type="text" id="name" placeholder="Full Name" required>
 
@@ -297,8 +296,7 @@
 
 
                     <div class="modal-footer">
-                        <button class="btn btn--blue close-modal" data-toggle="modal" data-target="events.html"
-                            data-bs-dismiss="modal">Confirm</button>
+                        <input type="submit" class="btn btn--blue" value="Confirm"
                     </div>
                 </form>
             </div>
