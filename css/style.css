@@ -2,9 +2,10 @@
 Dark- #011627
 White- #FDFFFC
 Teal- #2EC4B6
-Red- #E71D36
 Orange- #FF9F1C
 **/
+
+
 /**Buttons**/
 .btn-booking{
     background-color: #2EC4B6;
@@ -552,6 +553,12 @@ footer{
     color:#2EC4B6;
     font-size: 18px;
     padding-left: 5px;
+}
+
+/**404 Error Page**/
+.error-container{
+    text-align: center;
+    margin-top: 10rem;
 }
 
 @media (max-width: 992px){
