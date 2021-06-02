@@ -53,6 +53,21 @@ ___
 -	Physically active people.
 -	Problem Solvers
 
+# Design
+
+## Colours
+ The colours that I chose to use in this site were taken from coolors.co. I used an orange and a bright blue because I wanted to use colours which envoke playfulness and friendliness in the users of the site. In both the Navigation Bar and Footer i used a darker navy/black which adds contrast for the white font.
+ 
+  I tried to use the colours in a consistant and logical way by having:
+  - All buttons and links in Blue 
+  - All large paragraphs in Orange
+  - Navigation and Footer in Navy/Black
+
+![Color Pallet Used](docs/features/color-pallet.jpg)
+
+## Images
+The images I decided to use in this site all came from unsplash.com. I wanted the images used to have similar colours in them as the colour scheme that I had chosen. This is to make the site feel more cohesive and and to emphasise the companys brand colours. 
+
 ## User Stories
 _________________
 ### Site User Goals
@@ -74,7 +89,7 @@ _________________
 
 ## Wireframes
 ___
-Wireframes for each page can be found here:
+Wireframes for each page as desktop, tablet and mobile can be found here:
 
 [Home Page](docs/wireframes/Home-Page-Wireframe.jpg),
 [First Time](docs/wireframes/First-Time-Wireframe.jpg),
@@ -158,9 +173,9 @@ The Home Page consists of four main sections.
 ![Come Find Us Section](docs/features/home-screen-come-find-us.jpg)
 
 ### The user stories that this feature covers are:
-1. As a user I want to easily find the information that I'm looking for.
-3. As a user I want to find out the opening times for this gym.
-6. As a user I want to find out the location of this gym.
+1. *As a user I want to easily find the information that I'm looking for.*
+3. *As a user I want to find out the opening times for this gym.*
+6. *As a user I want to find out the location of this gym.*
 
 ## Feature 2 - First Time
 _____
@@ -191,8 +206,8 @@ The First Time page consists of three sections.
 ![What to Expect Section](docs/features/first-time-what-to-expect.jpg)
 
 ### The user stories that this feature covers are:
-2. As a user I want to find out how much it costs to climb at this gym.
-8. As a user I want to get an idea of what climbing at this gym will be like.
+2. *As a user I want to find out how much it costs to climb at this gym.*
+8. *As a user I want to get an idea of what climbing at this gym will be like.*
 
 ## Feature 3 - Facilities
 ___
@@ -215,8 +230,8 @@ The Facilities Page has two sections:
 ![Facilities List Top](docs/features/facilities-list-2.jpg)
 
 ### The user stories that this feature covers are:
-4. As a user I want to find out what facilities this gym has to offer.
-2. As a site owner I want to showcase the facilities at our climbing gym.
+4. *As a user I want to find out what facilities this gym has to offer.*
+2. *As a site owner I want to showcase the facilities at our climbing gym.*
 
 ## Feature 4 - Events Page
 ___
@@ -247,8 +262,8 @@ The Events Page consists of three sections:
 ![Registration Modal](docs/features/events-modal.jpg)
 
 ### The user stories that this feature covers are:
-7. As a regular user I want to find out about up comming events.
-5. As a site owner I want to promote up coming events and training courses at our climbing. 
+7. *As a regular user I want to find out about up comming events.*
+5. *As a site owner I want to promote up coming events and training courses at our climbing.* 
 
 ## Feature 5 - Contact Page
 ___
@@ -272,8 +287,8 @@ The Contact Page consists of two sections:
 ![Registration and Waiver box](docs/features/contact-us-waiver.jpg)
 
 ### The user stories that this feature covers are:
-4. As a site owner I want to have a way for customers to contact us.
-8. As a user I want to get an idea of what climbing at this gym will be like.
+4. *As a site owner I want to have a way for customers to contact us.*
+8. *As a user I want to get an idea of what climbing at this gym will be like.*
 
  ## Feature 6  - Booking Modal
  ___
@@ -286,7 +301,7 @@ The Contact Page consists of two sections:
 
 ### The user stories that this feature covers are:
 
-5. As a user I want to be able to book a slot.
+5. *As a user I want to be able to book a slot.*
 
 ### Features Left to Implement
 - In the future I would like to implement a members Log In page for gym members.
@@ -326,46 +341,55 @@ ___
 
 ## Testing User Stories
 ___
+*1.  As a user I want to find out how much it costs to climb at the gym.*
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-|1.  As a user I want to find out how much it costs to climb at the gym. | To achieve this the user navigates to the First Time page in the navigation bar.| I expect that the user will find the information that they are looking for.| Worked as expected|
+|Price Table in the First Time Page | To achieve this the user navigates to the First Time page in the navigation bar.| I expect that the user will find the information that they are looking for.| Worked as expected|
 
-![Price List Section](docs/features/first-time-price-list.jpg)
+[See image result Here](docs/testing/testing-user-story-1.jpg)
+___
 
+*2. As a user I want to find out the opening times for this gym.*
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-|2. As a user I want to find out the opening times for this gym.| User needs to scroll down to the Come Find Us section on the Home page |The user will find opening times for weekdays and weekends| Worked as expected|
+|Opening Times in the Come Find Us Section| User needs to scroll down to the Come Find Us section on the Home page |The user will find opening times for weekdays and weekends| Worked as expected|
 
-![Come Find Us Section](docs/features/home-screen-come-find-us.jpg)
+[See image result Here](docs/testing/testing-user-story-2.jpg)
+___
 
+*3. As a user I want to find out what facilities this gym has to offer.*
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-|3. As a user I want to find out what facilities this gym has to offer.|User will click on the Facilities link in the navigation bar| When user follows the Facilities link they will find information on all facilities avaliable at the gym| Worked as expected.|
+|Facilities Page|User will click on the Facilities link in the navigation bar| When user follows the Facilities link they will find information on all facilities avaliable at the gym| Worked as expected.|
 
-![Facilities List Top](docs/features/facilities-list-2.jpg)
-
+[See image result Here](docs/testing/testing-user-story-3.jpg)
+___
+*4. As a user I want to be able to book a climbing slot before I go to the gym.*
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-|4. As a user I want to be able to book a climbing slot before I go to the gym.| User will click on the Booking link in the navigation bar.| When user clicks the booking button a model form will pop up for the user to book a visit.|Worked as expected.|
+|Booking Button| User will click on the Booking link in the navigation bar.| When user clicks the booking button a model form will pop up for the user to book a visit.|Worked as expected.|
 
-![Booking Modal](docs/features/booking-modal.jpg)
-
+[See image result Here](docs/testing/testing-user-story-4.jpg)
+____
+*5. As a user I want to find out the location of this gym.*
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-|5. As a user I want to find out the location of this gym.|User needs to scroll down to the come find us section of the home page to find a map or to the footer of any page to find the address.|When user scrolls down to the come find us section or footer they will find the address and a map of where the gym is located.| Worked as expected.|
+|Come Find Us Map. Footer Address.|User needs to scroll down to the come find us section of the home page to find a map or to the footer of any page to find the address.|When user scrolls down to the come find us section or footer they will find the address and a map of where the gym is located.| Worked as expected.|
 
-![Come Find Us Section](docs/features/home-screen-come-find-us.jpg)
-![Footer](docs/features/footer.jpg)
-
+[See image result Here](docs/testing/testing-user-story-5.jpg)
+___
+*6. As a regular user I want to find out about up comming events.*
 | Feature | Action | Expected Result |  Actual Result |
 |---------|--------|-----------------|---------------|
-|6. As a regular user I want to find out about up comming events.|User will click on the Events link in the navigation bar| When user clicks on the Events link they will find information on upcoming events|Worked as expected|
+|Events Page|User will click on the Events link in the navigation bar| When user clicks on the Events link they will find information on upcoming events|Worked as expected|
 
-![Event Cards](docs/features/events-cards-1.jpg)
+[See image result Here](docs/testing/testing-user-story-6.jpg)
 
+___
+*8. As a user I want to get an idea of what climbing at this gym will be like.*
 | Feature | Action | Expected Result |  Actual Result |
-|---------|--------|-----------------|---------------|
-|8. As a user I want to get an idea of what climbing at this gym will be like.|User gathers a feeling of the experience they will have by going through the site|As the user navigates through the site the abundance of images and discriptive language will discribe what its like to climb in the gym.|Worked as expected.|
+---------|:--------|:-----------------|---------------|
+|Site Images|User gathers a feeling of the experience they will have by going through the site|As the user navigates through the site the abundance of images and discriptive language will discribe what its like to climb in the gym.|Worked as expected.|
 
 
 ## Testing Site Owner Goals
@@ -458,7 +482,7 @@ The devices included:
 - iPhone 8+
 
 
-### Bugs in Development
+# Bugs in Development
 Bug - On all pages I had a horizontal scroll bar.
 Fix - To fix this I referenced Stack Overflow where I learned to add "overflow: hidden;" to the "body" in CSS.
 
@@ -480,12 +504,13 @@ Fix - To fox this I changed the Reset Button to a Close Button so users could es
 Bug - The white text on the Hero image was a little difficult to read on certain pages. 
 Fix - I fixed this by adding an opaque overlay on top of each image. This increased contrast and made the text easier to read.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Bug - U
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Deployment
+# Deployment
 
+### Git Hub Pages
 I deployed this website using GitHub pages. The process I used is as follows:
 1. I logged into my Github account and selected my MS1 project from my repositories.
 2. I clicked on 'Settings' in the repository.
@@ -494,22 +519,38 @@ I deployed this website using GitHub pages. The process I used is as follows:
 5. I clicked on the dropdown menu that said 'None' and then selected 'Main'.
 6. After the page reloaded I clicked on the link to the deployed site.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+### Forking this GitHub Repository
+Follow these steps to fork the GitHub Repository
+1. Log into GitHub and find the repository.
+2. Click the 'Fork' button located in the top right of the page.
+3. This will make a copy of the repository on your own GitHub account.
+
+### Clone this Repository
+ To make a local clone of this repository follow these steps:
+ 1. Log into GitHub and find the repository.
+ 2. Click on the 'Code' button.
+ 3. To clone the repository using HTTPS, copy the url.
+ 4. Open Git and change the current working directory to where you want the cloned directory to be made.
+ 5. In the terminal type 'git clone' followed by the https url.
+ 6. Press enter
+ 7. The local clone will be created.
 
 
 # Credits
 
 ### Content
-
 - The copy for this website was written by myself. 
-### Media
-
-- The photos used in this site were obtained from Unsplash.com. 
+- All of the photos used in this site were obtained from Unsplash.com 
 
 ### Code
-
--
+- [W3C Schools](https://www.w3schools.com/css/css3_gradients.asp) is where I learned to place a gradient on the hr under the headers.
+- [Bootstrap](https://getbootstrap.com/) is where I got code blocks for:
+    - Navbars
+    - Modals 
+    - Cards
+    - Carousel
+- [Dani Krossing](https://www.youtube.com/watch?v=kPtS4vO42II) helped me create the .htaccess file for my 404 page.
 ### Acknowledgements
 - I gathered most of my inspiration ofr this project from my local climbing club, the experience of friends aswell as my own personal experience.
-
+- I really appreciated the support from CI community on Slack.
 - I would like to thanks to my mentor Mo from whom I received great feedback throughout this project.
