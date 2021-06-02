@@ -83,8 +83,8 @@ _________________
 ### Site Owner Goals
 1. As a site owner I want a professional responsive website.
 2. As a site owner I want to showcase the facilities at our climbing gym.
-3. As a site owner I want to establish a first point of contact with customers.
-4. As a site owner I want to have a way for customers to contact us.
+3. As a site owner I want to have a way for customers to contact us.
+4. As a site owner I want to have booking form for guests to book before thy arrive.
 5. As a site owner I want to promote up coming events and training courses at our climbing. 
 
 ## Wireframes
@@ -337,6 +337,8 @@ ___
 
 - [Image Resizer](https://imageresizer.com/) is where I reduced the size of the images inorder to reduce the loadtime of each page.
 
+- [favicon.io](https://favicon.io/) is the site I used to create the site icon.
+
 # Testing
 
 ## Testing User Stories
@@ -388,28 +390,50 @@ ___
 ___
 *8. As a user I want to get an idea of what climbing at this gym will be like.*
 | Feature | Action | Expected Result |  Actual Result |
----------|:--------|:-----------------|---------------|
+|---------|--------|-----------------|----------------|
 |Site Images|User gathers a feeling of the experience they will have by going through the site|As the user navigates through the site the abundance of images and discriptive language will discribe what its like to climb in the gym.|Worked as expected.|
 
 
 ## Testing Site Owner Goals
 ___
+*As a site owner I want a professional responsive website.*
 | Feature | Action | Expected Result | Actual Result |
 |---------|--------|-----------------|---------------|
-|As a site owner I want a professional responsive website.||||
+|In built resposniveness|Site owner will view the site on Desktop, Tablet and Mobile|The site will change its display according to the device with its being viewed on|Worked as expected|
 
-| Feature | Action | Expected Result | Actual Result |
-|---------|--------|-----------------|---------------|
-|As a site owner I want to showcase the facilities at our climbing gym.|The use of images and detailed information showcases what the gym has to offer. |Both site owner and user will see high quality images of the gym on every page. | Worked as expected|
+[See image result Here](docs/features/responsive-devices.jpg)
 
-| Feature | Action | Expected Result | Actual Result |
-|---------|--------|-----------------|---------------|
-|As a site owner I want to establish a first point of contact with customers.||||
+___
 
+*As a site owner I want to showcase the facilities at our climbing gym.*
 | Feature | Action | Expected Result | Actual Result |
 |---------|--------|-----------------|---------------|
-|As a stie owner I want to have a point of contact with guests.||||
-|As a site owner I want to promote up coming events and training courses at our climbing.|The events page of the site will have information about up coming events in the gym.|That there will be clear and detailed information on what up coming events will be held in the gym|Worked as expected.|
+|Facilities Page.|The site owner will navigate to the facilities page.|Both site owner and user will find information and images about the facilities.| Worked as expected|
+
+[See image result Here](docs/testing/testing-user-story-3.jpg)
+
+___
+*3. As a site owner I want to have a way for customers to contact us.*
+| Feature | Action | Expected Result | Actual Result |
+|---------|--------|-----------------|---------------|
+|Contact Form|Site owner can navigate to the contact page and scroll down|The contact form will be suitable for guests getting in touch with the gym| Worked as expected|
+
+[See image result Here](docs/testing/testing-user-story-7.jpg)
+___
+*4. As a site owner I want to have booking form for guests to book before thy arrive.*
+| Feature | Action | Expected Result | Actual Result |
+|---------|--------|-----------------|---------------|
+|Booking Modal|Click on the booking button in the navigation bar|The booking button will popup a form for guest to fill out|Worked as expected|
+
+[See image result Here](docs/testing/testing-user-story-4.jpg)
+
+___
+*As a site owner I want to promote up coming events and training courses at our climbing.*
+| Feature | Action | Expected Result | Actual Result |
+|---------|--------|-----------------|---------------|
+|Events Page Cards| The site owner will navigate to the events page and scroll down the the cards |The events cards will have information about up comming events|Worked as expected.|
+
+[See image result Here](docs/testing/testing-user-story-6.jpg)
 
 ### HTML Validation
 ___
@@ -540,7 +564,8 @@ Follow these steps to fork the GitHub Repository
 
 ### Content
 - The copy for this website was written by myself. 
-- All of the photos used in this site were obtained from Unsplash.com 
+- All of the photos used in this site were obtained from Unsplash.com
+- The sample waiver form was obtained from [amazonaws.com](https://s3.amazonaws.com/craft-prod-assets/documents/2018-Sample-Waiver-and-Release.pdf)
 
 ### Code
 - [W3C Schools](https://www.w3schools.com/css/css3_gradients.asp) is where I learned to place a gradient on the hr under the headers.
@@ -549,8 +574,8 @@ Follow these steps to fork the GitHub Repository
     - Modals 
     - Cards
     - Carousel
-- [Dani Krossing](https://www.youtube.com/watch?v=kPtS4vO42II) helped me create the .htaccess file for my 404 page.
+- [Dani Krossing](https://www.youtube.com/watch?v=kPtS4vO42II) a youtube video helped me create the .htaccess file for my 404 page.
 ### Acknowledgements
 - I gathered most of my inspiration ofr this project from my local climbing club, the experience of friends aswell as my own personal experience.
 - I really appreciated the support from CI community on Slack.
-- I would like to thanks to my mentor Mo from whom I received great feedback throughout this project.
+- I would like to thanks to my mentor Mo from whom I received great feedback and advice throughout this project.
