@@ -19,10 +19,6 @@ Orange- #FF9F1C
     color: #2EC4B6;
 }
 
-.dropdown-menu a{
-    color: #2EC4B6;
-}
-
 .btn--orange{
     background-color: #FF9F1C;
     color: #FDFFFC;
@@ -133,7 +129,6 @@ body{
 
 .member-type{
     display: inline;
-    margin-right: 2rem;
 }
 .rental-required{
     display: inline;
@@ -332,6 +327,7 @@ table{
     margin-top: 3rem;
 }
 
+/**Adds a gradient to the hr rule**/
 .hr-long{
     background-image: linear-gradient(to right, #e7921a,#011627, #e7921a);
     height: 1px;
@@ -365,11 +361,11 @@ footer{
     height: 32px;
     padding: 12px 0;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     color: #2EC4B6;
 }
-
+/**Social Links Hover Effect**/
 .social-links li a i:hover{
     color: #FDFFFC;
 }
@@ -403,8 +399,15 @@ footer{
     z-index: -2;
 }
 
-.facilities-about{
+.facilities-about h1{
     color: #FDFFFC;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.facilities-about p{
+    color: #FDFFFC;
+    font-size: 20px;
 }
 
 .boulder-card{
@@ -502,7 +505,6 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
-/**Events**/
 
 /**Registration Modal**/
 .modal-content{
@@ -556,10 +558,26 @@ footer{
 }
 
 /**404 Error Page**/
-.error-container{
-    text-align: center;
-    margin-top: 10rem;
+.hero-image{
+    width: 100%;
+    height: 92vh;
+    background: url(../images/hero-belay-lady.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    z-index: -2;
 }
+.error-container{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: #FDFFFC;
+}
+
 
 @media (max-width: 992px){
     .btn-group-home{
@@ -567,7 +585,7 @@ footer{
     }
 
     .navbar-brand{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .navbar-nav li{
@@ -578,4 +596,11 @@ footer{
         flex: none;
     }
 
+}
+
+@media (max-width: 557px){
+
+    .navbar-brand{
+        font-size: 20px;
+    }
 }
