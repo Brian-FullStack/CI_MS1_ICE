@@ -27,12 +27,10 @@
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
             <a class="navbar-brand " href="index.html">Irish Climbing Experience</a>
-
             <!--Navbar Burger Menu-->
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span></button>
-
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto mr-5">
                     <li class="nav-item mr-5"><a href="index.html">Home</a></li>
@@ -40,7 +38,6 @@
                     <li class="nav-item mr-5"><a href="facilities.html">Facilities</a></li>
                     <li class="nav-item mr-5"><a class="active" href="events.html">Events</a></li>
                     <li class="nav-item mr-5"><a href="contact.html">Contact</a></li>
-
                     <!--Booking Button-->
                     <li class="btn-group">
                         <button class=" btn btn-booking" data-toggle="modal" data-target="#booking-modal"
@@ -54,8 +51,6 @@
     </header>
 
     <section>
-
-
         <div class="container-fluid events-container">
             <div class="event-image">
                 <div class="opaque-overlay"> </div>
@@ -66,19 +61,16 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <section class="event-cards">
-
         <div class="event-header">
             <h2>Events</h2>
             <p><em>Registration is required to confirm your place at the event.</em></p>
         </div>
-
         <hr class="hr-long">
-
         <div class="row">
+            <!--Card 1-->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card shadow p-3 mb-5 bg-body rounded">
                     <img src="images/group-climbing.jpeg" class="card-img-top" alt="Climbers on a wall">
@@ -89,7 +81,7 @@
                     <button class="btn btn--blue shadow" data-toggle="modal" data-target="#modal">Register Here</button>
                 </div>
             </div>
-
+            <!--Card 2-->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card shadow p-3 mb-5 bg-body rounded">
                     <img src="images/figure-8-knot.jpeg" class="card-img-top" alt="figure 8 knot">
@@ -102,7 +94,7 @@
                     <button class="btn btn--blue shadow" data-toggle="modal" data-target="#modal">Regester Here</button>
                 </div>
             </div>
-
+            <!--Card 3-->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card shadow p-3 mb-5 bg-body rounded">
                     <img src="images/children-on-climbing-wall.jpeg" class="card-img-top"
@@ -114,7 +106,7 @@
                     <button class="btn btn--blue shadow" data-toggle="modal" data-target="#modal">Register Here</button>
                 </div>
             </div>
-
+            <!--Card 4-->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card shadow p-3 mb-5 bg-body rounded">
                     <img src="images/outdoor-climbing.jpeg" class="card-img-top" alt="Climbers climbing outside">
@@ -126,7 +118,7 @@
                     <button class="btn btn--blue shadow" data-toggle="modal" data-target="#modal">Register Here</button>
                 </div>
             </div>
-
+            <!--Card 5-->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card shadow p-3 mb-5 bg-body rounded">
                     <img src="images/bouldering-card.jpeg" class="card-img-top" alt="Climber Bouldering">
@@ -139,7 +131,7 @@
                     <button class="btn btn--blue shadow" data-toggle="modal" data-target="#modal">Register Here</button>
                 </div>
             </div>
-
+            <!--Card 6-->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card shadow p-3 mb-5 bg-body rounded">
                     <img src="images/strength.jpeg" class="card-img-top" alt="Fittness Equipment">
@@ -211,16 +203,18 @@
                 <div class="modal-body">
                     <div class="row" id="book">
                         <div class="col-12">
+                            <!--Submits form to CI Form dump-->
                             <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank" class="booking-form-container ml-auto mr-auto">
                                 <div class="form-group mr-auto ml-auto">
+                                    <!--User Contact Details-->
                                     <div class="input-box">
                                         <input type="text" placeholder="Full Name" required>
                                     </div>
                                     <div class="input-box">
                                         <input type="email" placeholder="Email" required>
                                     </div>
-
-                                    <div class="radio-btn">
+                                    <!--Member type Radio Buttons-->
+                                    <div class="radio-btn d-sm-block">
                                         <div class="member-type">
                                             <label for="member">Member</label>
                                             <input type="radio" name="customer-type" id="member" value="member"
@@ -232,9 +226,8 @@
                                                 class="radio-btn" required>
                                         </div>
                                     </div>
-
+                                    <!--Equipment rental Checkboxes-->
                                     <h5 class="rental-title">Do you need Equipment Rental?</h5>
-
                                     <div class="checkbox">
                                         <div class="rental-required">
                                             <label for="harness">Harness</label>
@@ -257,16 +250,14 @@
                                             <input type="checkbox" name="rental" id="full-set" class="checkbox">
                                         </div>
                                     </div>
-
-
+                                    <!--Subject and Message Box-->
                                     <div class="input-box" id="subject-line">
                                         <input type="text" placeholder="Subject">
                                     </div>
-
                                     <div class="input-box">
                                         <textarea placeholder="Message"></textarea>
                                     </div>
-
+                                    <!--Confirm/Close buttons-->
                                     <input type="submit" value="Confirm" class="btn btn--blue">
                                     <input type="button" value="Close" data-dismiss="modal" class="btn btn--orange">
                                 </div>
@@ -284,21 +275,18 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <h3>Event Registration</h3>
+                <!--Submits form to CI Form dump-->
                 <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+                    <!--User Contact Details-->
                     <label for="name">Name</label>
                     <input type="text" id="name" placeholder="Full Name" required>
-
                     <br>
-
                     <label for="email">Email</label>
                     <input type="email" id="email" placeholder="Email" required>
-
                     <br>
-
                     <label for="guest-number">Number of People</label>
                     <input type="number" id="guest-number" name="number" min="1" max="10" step="1" value="1">
-
-
+                    <!--Submit button-->
                     <div class="modal-footer">
                         <input type="submit" class="btn btn--blue" value="Confirm">
                     </div>
@@ -306,8 +294,8 @@
             </div>
         </div>
     </div>
-
     <!--/Sign Up Modal-->
+    
     <!--Bootstrap JS CDN-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
