@@ -40,7 +40,6 @@ The aim of this project is to create a responsive website for an indoor climbing
 Irish Climbing Experience is designed to be the hub of climbing in the north west of Ireland. With the sport of climbing gaining in popularity and in 2021 being the first year for climbing to be included in the Olympic Games, ICE is set on inspiring climbers and to create a new generation of climbers in Ireland. 
 
 # UX 
-Users of this website will need an easy to navigate site which guides them to the information they are looking. It should inform users of the facilities which ICE offers as well as information on prices, opening times and booking. This website satisfies these needs and more by having a navigation bar which informs the user what page they are currently on as well as linking to the other pages that they might be looking for. The use of images which relate to what the climbing gym looks like give the user an idea of the facilities, walls and some of the equipment that the will be using when they come to the gym.
 
 ## Site Demographic
 ___
@@ -52,9 +51,11 @@ ___
 -	Team building groups.
 -	Physically active people.
 -	Problem Solvers
+
 # Scope
-The scope of this website are as follows:
-- A navigation bar which 
+Users of this website will need an easy to navigate site which guides them to the information they are looking. 
+It should inform users of the facilities which ICE offers as well as information on Prices, Opening Times and Booking. 
+The use of images which relate to what the climbing gym looks like give the user an idea of the facilities, walls and some of the equipment that the will be using when they come to the gym.
 
 # Design
 
@@ -69,7 +70,7 @@ The scope of this website are as follows:
 ![Color Pallet Used](docs/features/color-pallet.jpg)
 
 ## Images
-The images I decided to use in this site all came from unsplash.com. I wanted the images used to have similar colours in them as the colour scheme that I had chosen. This is to make the site feel more cohesive and and to emphasise the companys brand colours. 
+The images I decided to use in this site all came from unsplash.com. I wanted the images used to have similar colours in them as the colour scheme that I had chosen. This is to make the site feel more cohesive and and to emphasise the companys brand colours.
 
 ## User Stories
 _________________
