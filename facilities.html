@@ -171,18 +171,18 @@
                 <div class="col-sm-4 inline-block">
                     <h5>Social</h5>
                     <ul class="list-inline social-links">
-                        <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                                aria-hidden="true"><i class="fab fa-facebook-square"></i>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                            <i class="fab fa-facebook-square"></i>
                                 <span class="sr-only">Facebook</span>
                             </a>
                         </li>
-                        <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                                aria-hidden="true"><i class="fab fa-instagram-square"></i>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                            <i class="fab fa-instagram-square"></i>
                                 <span class="sr-only">Facebook</span>
                             </a>
                         </li>
-                        <li class="list-inline-item"><a href="https://twitter.com/?lang=en-ie" target="_blank"
-                                rel="noopener" aria-hidden="true"><i class="fab fa-twitter-square"></i>
+                        <li class="list-inline-item"><a href="https://twitter.com/?lang=en-ie" target="_blank" rel="noopener">
+                            <i class="fab fa-twitter-square"></i>
                                 <span class="sr-only">Facebook</span>
                             </a>
                         </li>
@@ -193,8 +193,8 @@
     </footer>
     <!--/Footer-->
 
-    <!--Booking Form Modal-->
-    <div class="modal" id="booking-modal" tabindex="-1">
+     <!--Booking Form Modal created using Bootstrap-->
+     <div class="modal" id="booking-modal" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -203,17 +203,19 @@
                 <div class="modal-body">
                     <div class="row" id="book">
                         <div class="col-12">
+                            <!--Submits to CI Formdump-->
                             <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank" class="booking-form-container ml-auto mr-auto">
                                 <div class="form-group mr-auto ml-auto">
+                                    <!--User Details-->
                                     <div class="input-box">
                                         <input type="text" placeholder="Full Name" required>
                                     </div>
                                     <div class="input-box">
                                         <input type="email" placeholder="Email" required>
                                     </div>
-
+                                    <!--Member Type-->
                                     <div class="radio-btn">
-                                        <div class="member-type">
+                                        <div class="member-type mr-2">
                                             <label for="member">Member</label>
                                             <input type="radio" name="customer-type" id="member" value="member"
                                                 class="radio-btn">
@@ -224,10 +226,9 @@
                                                 class="radio-btn" required>
                                         </div>
                                     </div>
-
+                                    <!--Rental Checkboxes-->
                                     <h5 class="rental-title">Do you need Equipment Rental?</h5>
-
-                                    <div class="checkbox">
+                                    <div class="checkbox col-12">
                                         <div class="rental-required">
                                             <label for="harness">Harness</label>
                                             <input type="checkbox" name="rental" id="harness" class="checkbox">
@@ -249,16 +250,14 @@
                                             <input type="checkbox" name="rental" id="full-set" class="checkbox">
                                         </div>
                                     </div>
-
-
+                                    <!--Add a message-->
                                     <div class="input-box" id="subject-line">
                                         <input type="text" placeholder="Subject">
                                     </div>
-
                                     <div class="input-box">
                                         <textarea placeholder="Message"></textarea>
                                     </div>
-
+                                    <!--Confirm, Close Buttons-->
                                     <input type="submit" value="Confirm" class="btn btn--blue">
                                     <input type="button" value="Close" data-dismiss="modal" class="btn btn--orange">
                                 </div>
@@ -270,7 +269,6 @@
         </div>
     </div>
     <!--/Booking Form Modal-->
-
     <!--Bootstrap JS CDN-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

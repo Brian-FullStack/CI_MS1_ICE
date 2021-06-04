@@ -52,6 +52,9 @@ ___
 -	Team building groups.
 -	Physically active people.
 -	Problem Solvers
+# Scope
+The scope of this website are as follows:
+- A navigation bar which 
 
 # Design
 
