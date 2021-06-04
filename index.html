@@ -27,22 +27,19 @@
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
             <a class="navbar-brand " href="index.html">Irish Climbing Experience</a>
-
             <!--Navbar Burger Menu-->
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span></button>
-
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto mr-5">
                     <li class="nav-item mr-5"><a href="index.html">Home</a></li>
-                    <li class="nav-item mr-5"><a class="active" href="first-time.html">First Time</a></li>
+                    <li class="nav-item mr-5"><a href="first-time.html">First Time</a></li>
                     <li class="nav-item mr-5"><a href="facilities.html">Facilities</a></li>
                     <li class="nav-item mr-5"><a href="events.html">Events</a></li>
                     <li class="nav-item mr-5"><a href="contact.html">Contact</a></li>
-
                     <!--Booking Button-->
-                    <li class="btn-group">
+                    <li class="btn-group d-none">
                         <button class=" btn btn-booking" data-toggle="modal" data-target="#booking-modal"
                             aria-expanded="false">
                             Booking
@@ -68,7 +65,6 @@
     <!--Hero Box-->
     <!--Carousel was made using code from Bootstrap website-->
     <div id="prev-next" class="container carousel slide" data-ride="carousel">
-
         <!-- Indicators -->
         <ul class="carousel-indicators">
             <li data-target="#prev-next" data-slide-to="0" class="active"></li>
@@ -76,7 +72,6 @@
             <li data-target="#prev-next" data-slide-to="2"></li>
             <li data-target="#prev-next" data-slide-to="3"></li>
         </ul>
-
         <!-- The slideshow -->
         <div class="carousel-inner">
             <div class="carousel-item img-fluid active">
@@ -108,7 +103,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Left and right controls -->
         <!--Changed the default control icons using Font Awsome-->
         <a class="carousel-control-prev" href="#prev-next" data-slide="prev">
@@ -117,15 +111,12 @@
         <a class="carousel-control-next" href="#prev-next" data-slide="next">
             <i class="fas fa-arrow-circle-right"></i>
         </a>
-
     </div>
     <!--About Us-->
     <section class="container-fluid col-12 about-container">
         <div class="about-body">
             <h2>About Us</h2>
-
             <hr class="hr-long">
-
             <p>Irish Climbing Experience has climbing for all ages and abilities. <br> Our staff are climbers themselves
                 and are trained to show you the ropes in the safest and most enjoyable way possible.
                 ICE has over <br> 4 KM of climbing space between roped climbing, bouldering and auto belay. <br>
@@ -134,7 +125,6 @@
         </div>
     </section>
     <!--/About Us-->
-
     <!--Find Us-->
     <section class="find-us-section">
         <div class="container-fluid">
@@ -147,7 +137,6 @@
                         width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy">
                     </iframe>
                 </div>
-
                 <!--Opening Times-->
                 <div class="col-12 col-md-6 col-lg-4">
                     <h2>Opening Times <i class="fa fa-clock" aria-hidden="true"></i></h2>
@@ -156,7 +145,6 @@
                         Bank Holidays: Closed
                     </p>
                 </div>
-
                 <!--Waiver Form-->
                 <div class="col-12 col-md-6 col-lg-4">
                     <h2>Waiver Form <i class="fa fa-file-alt"></i></h2>
@@ -219,7 +207,6 @@
         </div>
     </footer>
     <!--/Footer-->
-
     <!--Booking Form Modal-->
     <!--Created from Bootstrap website-->
     <div class="modal" id="booking-modal" tabindex="-1">
@@ -254,9 +241,7 @@
                                                 class="radio-btn" required>
                                         </div>
                                     </div>
-
                                     <h5 class="rental-title">Do you need Equipment Rental?</h5>
-
                                     <div class="checkbox">
                                         <div class="rental-required">
                                             <label for="harness">Harness</label>
@@ -279,16 +264,12 @@
                                             <input type="checkbox" name="rental" id="full-set" class="checkbox">
                                         </div>
                                     </div>
-
-
                                     <div class="input-box" id="subject-line">
                                         <input type="text" placeholder="Subject">
                                     </div>
-
                                     <div class="input-box">
                                         <textarea placeholder="Message"></textarea>
                                     </div>
-
                                     <input type="submit" value="Confirm" class="btn btn--blue">
                                     <input type="button" value="Close" data-dismiss="modal" class="btn btn--orange">
                                 </div>
