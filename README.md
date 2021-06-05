@@ -44,7 +44,7 @@ Irish Climbing Experience is designed to be the hub of climbing in the north wes
 # UX 
 
 ## Site Demographic
-___
+
 -	Climbers live/travel to the north west of Ireland.
 -	Families
 -	Couples/Friends
@@ -58,15 +58,15 @@ ___
 I want the users of this site to get excited about climbing before coming to the climbing gym. I want to give them a chance to get a feel for what the climbing gym will have to offer in terms of facilities and training. If users like the feel of the site then it could inspire them to come and try out a new sport.
 
 ## Site Owner Requirements
-___
+
 The main purpose of this site is to establish an online presence for the business. As a new climbing gym in the west of Ireland its important to have a site which clearly and tastefully shows the unique selling points of this gym. Its important for this site to boast striking images of all the facilities that will be available to customers.
 
 ## User Requirements
-___
+
 Users will need to be able to access this site across a range of devices. Information needs to accessiable, clear and easy to find. 
 
 ## Structure
-___
+
  - The website will be a multipage site consisting of five seperate pages. Home Page, First Time, Facilities, Events and Contact pages. 
  - There will be a modal where you can book a visit to the gym. This will be accessable in the navbar on every page.
  - A responsive navbar which will have links to all pages as well as the booking modal.
@@ -96,7 +96,7 @@ ___
 The images I decided to use in this site all came from unsplash.com. I wanted the images used to have similar colours in them as the colour scheme that I had chosen. This is to make the site feel more cohesive and and to emphasise the companys brand colours.
 
 ## User Stories
-_________________
+
 ### Site User Goals
 1. As a user I want to easily find the information that I'm looking for.
 2. As a user I want to find out how much it costs to climb at this gym.
@@ -115,7 +115,7 @@ _________________
 5. As a site owner I want to promote up coming events and training courses at our climbing. 
 
 ## Wireframes
-___
+
 Wireframes for each page as desktop, tablet and mobile can be found here:
 
 [Home Page](docs/wireframes/Home-Page-Wireframe.jpg),
@@ -149,7 +149,7 @@ There are two common features which appear on every page.
 1. As a site owner I want a professional responsive website.
 
 ## Feature 1 - Home Page
-_____
+
 The Home Page consists of four main sections.
 
 1. Hero Image and a call to action button.
@@ -205,7 +205,7 @@ The Home Page consists of four main sections.
 6. *As a user I want to find out the location of this gym.*
 
 ## Feature 2 - First Time
-_____
+
 The First Time page consists of three sections.
 
 1. Hero Image and About section.
@@ -237,7 +237,7 @@ The First Time page consists of three sections.
 8. *As a user I want to get an idea of what climbing at this gym will be like.*
 
 ## Feature 3 - Facilities
-___
+
 The Facilities Page has two sections:
 
 1. Hero Image and About
@@ -261,7 +261,7 @@ The Facilities Page has two sections:
 2. *As a site owner I want to showcase the facilities at our climbing gym.*
 
 ## Feature 4 - Events Page
-___
+
 The Events Page consists of three sections:
 
 1. Hero Image and Heading
@@ -293,7 +293,7 @@ The Events Page consists of three sections:
 5. *As a site owner I want to promote up coming events and training courses at our climbing.* 
 
 ## Feature 5 - Contact Page
-___
+
 The Contact Page consists of two sections:
 
 1. Contact Form section
@@ -318,7 +318,7 @@ The Contact Page consists of two sections:
 8. *As a user I want to get an idea of what climbing at this gym will be like.*
 
  ## Feature 6  - Booking Modal
- ___
+ 
 - The Booking Modal is created using Bootstrap 4 modal template.
 - This section is located on every page via the navbar.
 - I added custom HTML and CSS to the Bootstrap modal to style and layout the form.
@@ -341,8 +341,6 @@ The Contact Page consists of two sections:
 - [HTML](https://html.com/html5/) is used for adding all the copy and images to each page as well as creating forms and lists.
 
 - [CSS](https://www.w3schools.com/Css/) is used throughout this project to style the overall website.
-
-___
 
 - [Bootstrap 4](https://getbootstrap.com/) came in very usefull when making the site responsive across a range of devices as well as a source of information.
 
