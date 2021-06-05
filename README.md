@@ -53,9 +53,30 @@ ___
 -	Problem Solvers
 
 # Scope
-Users of this website will need an easy to navigate site which guides them to the information they are looking. 
-It should inform users of the facilities which ICE offers as well as information on Prices, Opening Times and Booking. 
-The use of images which relate to what the climbing gym looks like give the user an idea of the facilities, walls and some of the equipment that the will be using when they come to the gym.
+I want the users of this site to get excited about climbing before coming to the climbing gym. I want to give them a chance to get a feel for what the climbing gym will have to offer in terms of facilities and training. If users like the feel of the site then it could inspire them to come and try out a new sport.
+
+## Site Owner Requirements
+___
+The main purpose of this site is to establish an online presence for the business. As a new climbing gym in the west of Ireland its important to have a site which clearly and tastefully shows the unique selling points of this gym. Its important for this site to boast striking images of all the facilities that will be available to customers.
+
+## User Requirements
+___
+Users will need to be able to access this site across a range of devices. Information needs to accessiable, clear and easy to find. 
+
+## Structure
+___
+ - The website will be a multipage site consisting of five seperate pages. Home Page, First Time, Facilities, Events and Contact pages. 
+ - There will be a modal where you can book a visit to the gym. This will be accessable in the navbar on every page.
+ - A responsive navbar which will have links to all pages as well as the booking modal.
+ - A footer which will have social media links and the address.
+ - A 404 error page which will direct users back to the Home page in the event of an incorrect url.
+ - The Home page will have a small paragraph about the gym and opening times. 
+ - An embeded map will be included to show the climbing gyms location.
+ - THe First Time page will show a price list for the different groups of climbers who will be using the gym as well as a section explaining to climbers what their first time climbing will be like.
+ - The Facilities page will explain about all the different types of climbing at the gym and what the gym has to offer.
+ - The Events page will simply give information about what types of events or courses will be held at the gym and a way to regester for an event.
+ - Contact page will give users a way to get in touch with any questions that they may have. It will also have a section where users can download the waiver form.
+ - Favicon will help to allow users to easily recognise the site in their browser.
 
 # Design
 
@@ -512,29 +533,32 @@ The devices included:
 
 # Bugs in Development
 Bug - On all pages I had a horizontal scroll bar.
+
 Fix - To fix this I referenced Stack Overflow where I learned to add "overflow: hidden;" to the "body" in CSS.
 
 Bug - When viewed on a tablet the Come Find Us section wasnt responsive.
+
 Fix - To solve this issue I referenced Code Institute lesson on creating the footer in the Resume project. I was reminded to add "class-"col-12 col-md-6 col-lg-4"" to all three divs. This pushed the waiver down to a new line and put the other two divs in two col-6 on the same line.
 
 Bug- On the Facilities pageI had trouble with two images streching on large screen sizes.
+
 Fix - I referenced Stack Overflow and learned about "Object-fit: cover;" This has helped the image from streching too much.
 
 Bug - Dropdown navigation menu was too hard to read on small screen sizes due to a transparent background.
+
 Fix - To solve this problem I added a media qurey for a dark background on .navbar-collapse.
 
 Bug - I felt that there was too many Booking buttons in the home page. When the navigation menu dropped down I felt that the buttons were too close.
+
 Fix - I added a media query so that the Booking button in the navbar on only the Home Page would be removed. 
 
 Bug - The Booking modal on mobiles had no way of being dismissed unless it was filled out and confirmed.
+
 Fix - To fox this I changed the Reset Button to a Close Button so users could escape from the booking modal if they didnt want to fill out the form.
 
-Bug - The white text on the Hero image was a little difficult to read on certain pages. 
+Bug - The white text on the Hero image was a little difficult to read on certain pages.
+ 
 Fix - I fixed this by adding an opaque overlay on top of each image. This increased contrast and made the text easier to read.
-
-Bug - U
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 # Deployment
 
