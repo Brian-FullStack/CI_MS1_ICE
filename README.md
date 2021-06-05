@@ -1,13 +1,16 @@
-READ ME FILE
+IRISH CLIMBING EXPERIENCE
 
 ![Device Responsiveness](docs/features/responsive-devices.jpg)
 
 [View Deployed Site](https://brian-fullstack.github.io/CI_MS1_ICE/)
-
+___
 Tabel Of Contents
 -
 - [Introduction](#IrishClimbingExperience)
 - [UX](#ux)
+    - [Site Demographic](#Site-Demographic)
+    - [Scope](#Scope)
+    - [Design](#Design)
     - [User Stories](#User-Stories)
     - [Site User Goals](#Site-User-Goals)
     - [Site Owner Goals](#Site-Owner-Goals)
@@ -32,8 +35,7 @@ Tabel Of Contents
 - [Credits](#Credits)
 - [Media](#Media)
 - [Acknowledgements](#Acknowledgements)
-
-
+___
 
 # Irish Climbing Experience
 The aim of this project is to create a responsive website for an indoor climbing gym Irish Climbing Experience (ICE). The idea for this website came from a conversation with some climbers who expressed frustration because they didn’t have any facility where they could train during the winter months.
@@ -557,7 +559,7 @@ Bug - The Booking modal on mobiles had no way of being dismissed unless it was f
 Fix - To fox this I changed the Reset Button to a Close Button so users could escape from the booking modal if they didnt want to fill out the form.
 
 Bug - The white text on the Hero image was a little difficult to read on certain pages.
- 
+
 Fix - I fixed this by adding an opaque overlay on top of each image. This increased contrast and made the text easier to read.
 
 # Deployment
